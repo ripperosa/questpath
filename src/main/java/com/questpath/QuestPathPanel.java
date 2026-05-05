@@ -8,7 +8,6 @@ import com.questpath.data.QuestRepository;
 import com.questpath.game.GameStateReader;
 import com.questpath.game.PlayerState;
 import com.questpath.game.QuestStatus;
-import com.questpath.integration.QuestHelperBridge;
 import com.questpath.planner.DependencyGraph;
 import com.questpath.planner.PathPlanner;
 import com.questpath.planner.Plan;
@@ -34,7 +33,6 @@ import javax.swing.BorderFactory;
 import javax.swing.Box;
 import javax.swing.BoxLayout;
 import javax.swing.JButton;
-import javax.swing.JCheckBox;
 import javax.swing.JComboBox;
 import javax.swing.JComponent;
 import javax.swing.JLabel;
@@ -79,7 +77,6 @@ public class QuestPathPanel extends PluginPanel
 	private final PathPlanner pathPlanner;
 	private final ConfigManager configManager;
 	private final QuestPathConfig config;
-	private final QuestHelperBridge questHelperBridge;
 
 	private final JComboBox<FilterMode> filterCombo;
 	private final JComboBox<DifficultyFilter> difficultyCombo;
@@ -118,7 +115,6 @@ public class QuestPathPanel extends PluginPanel
 		PathPlanner pathPlanner,
 		ConfigManager configManager,
 		QuestPathConfig config,
-		QuestHelperBridge questHelperBridge,
 		String initialTargetId)
 	{
 		super(false);
@@ -127,8 +123,7 @@ public class QuestPathPanel extends PluginPanel
 		this.pathPlanner = pathPlanner;
 		this.configManager = configManager;
 		this.config = config;
-		this.questHelperBridge = questHelperBridge;
-		this.questInfoCard = new QuestInfoCard(questHelperBridge, config::enableQuestHelperHandoff);
+		this.questInfoCard = new QuestInfoCard();
 		this.helpPanel = new HelpPanel(config.helpExpanded(), expanded ->
 			configManager.setConfiguration(QuestPathConfig.GROUP, QuestPathConfig.HELP_EXPANDED_KEY, expanded));
 		this.questListPanel = new QuestListPanel(this::onQuestSelectedFromList);
@@ -723,57 +718,11 @@ public class QuestPathPanel extends PluginPanel
 		body.add(sliderRow("AFK:", afkSlider, afkValueLabel));
 		body.add(Box.createRigidArea(new Dimension(0, 12)));
 
-		body.add(sectionHeader("Integrations"));
-		body.add(buildQuestHelperToggle());
-		body.add(Box.createRigidArea(new Dimension(0, 12)));
-
 		helpPanel.setAlignmentX(Component.LEFT_ALIGNMENT);
 		body.add(helpPanel);
 
 		body.add(Box.createVerticalGlue());
 		return body;
-	}
-
-	/**
-	 * Inline toggle for the Quest Helper hand-off. Lives here (rather than only
-	 * in RuneLite's plugin settings UI) so users can find it without leaving
-	 * the panel. The setting is off by default — flipping it on enables the
-	 * "Open in Quest Helper" button on the quest info card, which uses
-	 * reflection to drive Quest Helper's QuestManager.startUpQuest().
-	 */
-	private JPanel buildQuestHelperToggle()
-	{
-		JPanel wrap = new JPanel();
-		wrap.setLayout(new BoxLayout(wrap, BoxLayout.Y_AXIS));
-		wrap.setBackground(ColorScheme.DARK_GRAY_COLOR);
-		wrap.setAlignmentX(Component.LEFT_ALIGNMENT);
-
-		JCheckBox checkbox = new JCheckBox("Enable Quest Helper hand-off",
-			config.enableQuestHelperHandoff());
-		checkbox.setBackground(ColorScheme.DARK_GRAY_COLOR);
-		checkbox.setForeground(Color.WHITE);
-		checkbox.setFont(checkbox.getFont().deriveFont(Font.PLAIN, FONT_BODY));
-		checkbox.setFocusable(false);
-		checkbox.setAlignmentX(Component.LEFT_ALIGNMENT);
-		checkbox.addActionListener(e -> {
-			configManager.setConfiguration(QuestPathConfig.GROUP,
-				QuestPathConfig.QH_HANDOFF_KEY, checkbox.isSelected());
-			refresh();
-		});
-		wrap.add(checkbox);
-
-		JLabel hint = new JLabel("<html><body style='width:155px'>"
-			+ "Adds an \"Open in Quest Helper\" button to the quest info card. "
-			+ "Requires the Quest Helper plugin. Off by default."
-			+ "</body></html>");
-		hint.setForeground(ColorScheme.LIGHT_GRAY_COLOR);
-		hint.setFont(hint.getFont().deriveFont(Font.PLAIN, 12f));
-		hint.setAlignmentX(Component.LEFT_ALIGNMENT);
-		// 22px left indent aligns the hint under the checkbox label, not the box.
-		hint.setBorder(BorderFactory.createEmptyBorder(2, 22, 0, 0));
-		wrap.add(hint);
-
-		return wrap;
 	}
 
 	private void showBrowseCard()

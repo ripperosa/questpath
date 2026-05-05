@@ -4,7 +4,6 @@ import com.google.inject.Provides;
 import com.questpath.data.QuestRepository;
 import com.questpath.game.GameStateReader;
 import com.questpath.game.PlayerState;
-import com.questpath.integration.QuestHelperBridge;
 import com.questpath.planner.PathPlanner;
 import com.questpath.planner.Plan;
 import com.questpath.planner.PlanStep;
@@ -53,9 +52,6 @@ public class QuestPathPlugin extends Plugin
 	@Inject
 	private PathPlanner pathPlanner;
 
-	@Inject
-	private QuestHelperBridge questHelperBridge;
-
 	private QuestPathPanel panel;
 	private NavigationButton navButton;
 
@@ -74,7 +70,6 @@ public class QuestPathPlugin extends Plugin
 			pathPlanner,
 			configManager,
 			config,
-			questHelperBridge,
 			config.targetQuestId());
 
 		// Also dump the initial plan to console for log-driven debugging.
@@ -140,8 +135,7 @@ public class QuestPathPlugin extends Plugin
 			|| QuestPathConfig.SORT_MODE_KEY.equals(key)
 			|| QuestPathConfig.TIME_WEIGHT_KEY.equals(key)
 			|| QuestPathConfig.GP_WEIGHT_KEY.equals(key)
-			|| QuestPathConfig.AFK_WEIGHT_KEY.equals(key)
-			|| QuestPathConfig.QH_HANDOFF_KEY.equals(key))
+			|| QuestPathConfig.AFK_WEIGHT_KEY.equals(key))
 		{
 			panel.refresh();
 		}

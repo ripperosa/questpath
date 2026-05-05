@@ -3,7 +3,6 @@ package com.questpath.ui;
 import com.questpath.data.QuestDefinition;
 import com.questpath.game.PlayerState;
 import com.questpath.game.QuestStatus;
-import com.questpath.integration.QuestHelperBridge;
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Component;
@@ -11,15 +10,12 @@ import java.awt.Dimension;
 import java.awt.FlowLayout;
 import java.awt.Font;
 import java.awt.Insets;
-import java.util.function.BooleanSupplier;
 import javax.swing.BorderFactory;
 import javax.swing.Box;
 import javax.swing.BoxLayout;
 import javax.swing.JButton;
 import javax.swing.JLabel;
-import javax.swing.JOptionPane;
 import javax.swing.JPanel;
-import javax.swing.SwingUtilities;
 import lombok.extern.slf4j.Slf4j;
 import net.runelite.client.ui.ColorScheme;
 import net.runelite.client.util.LinkBrowser;
@@ -46,25 +42,16 @@ public class QuestInfoCard extends JPanel
 	private static final Color STATUS_PROGRESS = ColorScheme.BRAND_ORANGE;
 	private static final Color STATUS_NOT_STARTED = ColorScheme.PROGRESS_ERROR_COLOR;
 
-	private final QuestHelperBridge questHelperBridge;
-	/** User-controlled toggle — when false, the QH button is hidden entirely
-	 *  and we never invoke the (reflection-based) bridge. Off by default. */
-	private final BooleanSupplier questHelperHandoffEnabled;
-
 	private final JLabel titleLabel = new JLabel(" ");
 	private final JLabel statusLabel = new JLabel(" ");
 	private final JPanel badgeRow = new JPanel(new FlowLayout(FlowLayout.LEFT, 4, 0));
-	private final JButton qhButton = new JButton("Open in Quest Helper");
-	private final JButton wikiButton = new JButton("Wiki");
+	private final JButton wikiButton = new JButton("Open Wiki");
 
 	// Held so the buttons' action listeners can target the right quest.
 	private QuestDefinition currentQuest;
 
-	public QuestInfoCard(QuestHelperBridge questHelperBridge, BooleanSupplier questHelperHandoffEnabled)
+	public QuestInfoCard()
 	{
-		this.questHelperBridge = questHelperBridge;
-		this.questHelperHandoffEnabled = questHelperHandoffEnabled;
-
 		setLayout(new BoxLayout(this, BoxLayout.Y_AXIS));
 		setBackground(CARD_BG);
 		setAlignmentX(Component.LEFT_ALIGNMENT);
@@ -94,7 +81,6 @@ public class QuestInfoCard extends JPanel
 			statusLabel.setText(" ");
 			statusLabel.setForeground(ColorScheme.LIGHT_GRAY_COLOR);
 			badgeRow.removeAll();
-			qhButton.setVisible(false);
 			wikiButton.setEnabled(false);
 			revalidate();
 			repaint();
@@ -116,21 +102,6 @@ public class QuestInfoCard extends JPanel
 		if (quest.getQuestPointReward() > 0)
 		{
 			badgeRow.add(badge(quest.getQuestPointReward() + " QP", null));
-		}
-
-		boolean handoffOptedIn = questHelperHandoffEnabled != null
-			&& questHelperHandoffEnabled.getAsBoolean();
-		// Only consult the (reflection-based) bridge when the user has explicitly
-		// opted in via plugin settings. Default-off keeps QuestPath strictly
-		// reflection-free for users who never touch the toggle.
-		qhButton.setVisible(handoffOptedIn);
-		if (handoffOptedIn)
-		{
-			boolean qhAvailable = questHelperBridge != null && questHelperBridge.isAvailable();
-			qhButton.setEnabled(qhAvailable);
-			qhButton.setToolTipText(qhAvailable
-				? "Hand off to the Quest Helper plugin"
-				: "Quest Helper plugin not installed or not running");
 		}
 
 		wikiButton.setEnabled(quest.getWikiUrl() != null && !quest.getWikiUrl().isEmpty());
@@ -185,12 +156,6 @@ public class QuestInfoCard extends JPanel
 		row.setBackground(CARD_BG);
 		row.setAlignmentX(Component.LEFT_ALIGNMENT);
 
-		styleActionButton(qhButton);
-		qhButton.addActionListener(e -> handleOpenInQuestHelper());
-		row.add(qhButton);
-
-		row.add(Box.createRigidArea(new Dimension(6, 0)));
-
 		styleActionButton(wikiButton);
 		wikiButton.addActionListener(e -> handleOpenWiki());
 		row.add(wikiButton);
@@ -216,20 +181,6 @@ public class QuestInfoCard extends JPanel
 		return label;
 	}
 
-	private void handleOpenInQuestHelper()
-	{
-		if (currentQuest == null)
-		{
-			return;
-		}
-		boolean ok = questHelperBridge.openQuest(currentQuest.getId());
-		if (!ok)
-		{
-			showFailureToast("Couldn't reach the Quest Helper plugin. "
-				+ "Make sure it's installed and enabled.");
-		}
-	}
-
 	private void handleOpenWiki()
 	{
 		if (currentQuest == null || currentQuest.getWikiUrl() == null)
@@ -237,17 +188,6 @@ public class QuestInfoCard extends JPanel
 			return;
 		}
 		LinkBrowser.browse(currentQuest.getWikiUrl());
-	}
-
-	private void showFailureToast(String message)
-	{
-		// Lightweight, non-blocking-style modal — cheap and avoids depending on
-		// RuneLite's notification system.
-		SwingUtilities.invokeLater(() -> JOptionPane.showMessageDialog(
-			SwingUtilities.getWindowAncestor(this),
-			message,
-			"QuestPath",
-			JOptionPane.WARNING_MESSAGE));
 	}
 
 	// ----- formatting ----------------------------------------------------------

@@ -17,7 +17,6 @@ public interface QuestPathConfig extends Config
 	String GP_WEIGHT_KEY = "gpWeight";
 	String AFK_WEIGHT_KEY = "afkWeight";
 	String HELP_EXPANDED_KEY = "helpExpanded";
-	String QH_HANDOFF_KEY = "enableQuestHelperHandoff";
 
 	enum FilterMode
 	{
@@ -144,16 +143,6 @@ public interface QuestPathConfig extends Config
 		// First-launch: expanded so the user can read the legend. They collapse it
 		// once they're oriented and the choice persists.
 		return true;
-	}
-
-	@ConfigItem(
-		keyName = QH_HANDOFF_KEY,
-		name = "Enable Quest Helper hand-off",
-		description = "Off by default. When enabled, the 'Open in Quest Helper' button on the quest info card asks the Quest Helper plugin (if installed) to start tracking the selected quest. This integration uses Java reflection because Quest Helper has no public API; turning it off keeps QuestPath strictly reflection-free."
-	)
-	default boolean enableQuestHelperHandoff()
-	{
-		return false;
 	}
 
 	@ConfigItem(

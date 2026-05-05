@@ -13,7 +13,7 @@ Pick any target quest, miniquest, or achievement diary. QuestPath shows the full
 - **Weighted training preferences** — three sliders (Time / GP / AFK) tune which training methods the planner picks for skill gaps
 - **Search + filters** — type to filter, narrow by Quest / Miniquest / Diary / F2P / Members / Meets-Reqs, sort A→Z or by quest points
 - **Status dots in the list** — at a glance, see which quests you can start right now (blue), have already done (green), or are blocked by a skill (orange) or another quest (red)
-- **Quest Helper hand-off (opt-in)** — turn on in plugin settings and the "Open in Quest Helper" button asks the Quest Helper plugin (if installed) to start tracking the quest so its step-by-step walkthrough takes over
+- **Wiki link per quest** — one click opens the OSRS Wiki page for the selected quest in your browser
 
 ## Install
 
@@ -47,7 +47,7 @@ QuestPath:
 - **Does not** make any HTTP requests at runtime
 - **Does not** read or write files outside of standard RuneLite plugin config
 - **Does not** transmit any data to third-party servers
-- The optional Quest Helper hand-off feature uses Java reflection to invoke a method on the Quest Helper plugin instance (if installed). It is **off by default**; turn it on in plugin settings if you want it. When off, no reflection is performed.
+- **Does not** use reflection or any other restricted Java APIs
 
 ## Development
 
@@ -86,8 +86,7 @@ questpath/
 │   ├── data/                               ← QuestDefinition, repository, JSON loaders
 │   ├── game/                               ← live PlayerState snapshot from RuneLite
 │   ├── planner/                            ← dependency graph + plan generation
-│   ├── ui/                                 ← QuestListPanel, QuestInfoCard, etc.
-│   └── integration/QuestHelperBridge.java  ← optional reflection-based QH hand-off
+│   └── ui/                                 ← QuestListPanel, QuestInfoCard, etc.
 ├── src/main/resources/
 │   ├── icon.png                            ← 16×16 toolbar icon
 │   └── data/{wiki_data.json,overrides.json}
