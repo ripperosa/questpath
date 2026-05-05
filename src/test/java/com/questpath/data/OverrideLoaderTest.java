@@ -24,7 +24,7 @@ public class OverrideLoaderTest
 	@Before
 	public void setUp()
 	{
-		data = new OverrideLoader().getData();
+		data = new OverrideLoader(new com.google.gson.Gson()).getData();
 	}
 
 	@Test
@@ -76,7 +76,7 @@ public class OverrideLoaderTest
 		// the_restless_ghost which come from the wiki bundle). So we
 		// validate against the *merged* repository view, not just overrides.
 		java.util.Map<String, QuestDefinition> merged = new java.util.HashMap<>();
-		merged.putAll(new WikiDataFetcher().fetchQuests());
+		merged.putAll(new WikiDataFetcher(new com.google.gson.Gson()).fetchQuests());
 		merged.putAll(data.getQuests());
 
 		for (QuestDefinition q : data.getQuests().values())

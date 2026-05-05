@@ -23,7 +23,7 @@ public class WikiDataFetcherTest
 	@Before
 	public void setUp()
 	{
-		quests = new WikiDataFetcher().fetchQuests();
+		quests = new WikiDataFetcher(new com.google.gson.Gson()).fetchQuests();
 	}
 
 	@Test

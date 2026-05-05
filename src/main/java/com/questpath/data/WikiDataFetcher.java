@@ -9,6 +9,7 @@ import java.nio.charset.StandardCharsets;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
+import javax.inject.Inject;
 import javax.inject.Singleton;
 import lombok.extern.slf4j.Slf4j;
 
@@ -31,9 +32,12 @@ public class WikiDataFetcher
 
 	private final Map<String, QuestDefinition> cached;
 
-	public WikiDataFetcher()
+	/** Plugin Hub forbids constructing fresh Gson instances; we inject the
+	 *  client's shared one. Tests must pass {@code new Gson()} explicitly. */
+	@Inject
+	public WikiDataFetcher(Gson gson)
 	{
-		this.cached = loadFromClasspath();
+		this.cached = loadFromClasspath(gson);
 	}
 
 	/** Returns wiki-derived quest definitions, keyed by id. Never null. */
@@ -42,7 +46,7 @@ public class WikiDataFetcher
 		return cached;
 	}
 
-	private static Map<String, QuestDefinition> loadFromClasspath()
+	private static Map<String, QuestDefinition> loadFromClasspath(Gson gson)
 	{
 		try (InputStream in = WikiDataFetcher.class.getResourceAsStream(RESOURCE_PATH))
 		{
@@ -53,7 +57,7 @@ public class WikiDataFetcher
 			}
 			try (Reader reader = new InputStreamReader(in, StandardCharsets.UTF_8))
 			{
-				OverrideData data = new Gson().fromJson(reader, OverrideData.class);
+				OverrideData data = gson.fromJson(reader, OverrideData.class);
 				if (data == null || data.getQuests() == null)
 				{
 					return Collections.emptyMap();

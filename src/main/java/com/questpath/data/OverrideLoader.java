@@ -7,6 +7,7 @@ import java.io.InputStreamReader;
 import java.io.Reader;
 import java.nio.charset.StandardCharsets;
 import java.util.Collections;
+import javax.inject.Inject;
 import javax.inject.Singleton;
 import lombok.extern.slf4j.Slf4j;
 
@@ -25,9 +26,16 @@ public class OverrideLoader
 
 	private final OverrideData cached;
 
-	public OverrideLoader()
+	/**
+	 * Plugin Hub forbids constructing fresh Gson instances in plugin code —
+	 * we inject the client's shared one at runtime. Tests construct one
+	 * explicitly via {@link #OverrideLoader(Gson)} since they don't run inside
+	 * Guice.
+	 */
+	@Inject
+	public OverrideLoader(Gson gson)
 	{
-		this.cached = loadFromClasspath();
+		this.cached = loadFromClasspath(gson);
 	}
 
 	public OverrideData getData()
@@ -35,7 +43,7 @@ public class OverrideLoader
 		return cached;
 	}
 
-	private OverrideData loadFromClasspath()
+	private OverrideData loadFromClasspath(Gson gson)
 	{
 		try (InputStream in = getClass().getResourceAsStream(RESOURCE_PATH))
 		{
@@ -47,7 +55,7 @@ public class OverrideLoader
 
 			try (Reader reader = new InputStreamReader(in, StandardCharsets.UTF_8))
 			{
-				OverrideData data = new Gson().fromJson(reader, OverrideData.class);
+				OverrideData data = gson.fromJson(reader, OverrideData.class);
 				if (data == null)
 				{
 					log.warn("overrides.json parsed to null — returning empty");

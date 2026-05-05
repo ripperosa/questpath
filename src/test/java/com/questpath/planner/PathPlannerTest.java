@@ -32,7 +32,8 @@ public class PathPlannerTest
 	@Before
 	public void setUp()
 	{
-		QuestRepository repo = new QuestRepository(new OverrideLoader(), new WikiDataFetcher());
+		com.google.gson.Gson gson = new com.google.gson.Gson();
+		QuestRepository repo = new QuestRepository(new OverrideLoader(gson), new WikiDataFetcher(gson));
 		// null config — GapResolver falls back to weight=5 for each preference.
 		GapResolver resolver = new GapResolver(repo, null);
 		this.planner = new PathPlanner(repo, resolver);
