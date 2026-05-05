@@ -1,0 +1,30 @@
+# Build outputs
+.gradle/
+build/
+out/
+*.class
+
+# IDEs
+.idea/
+.project
+.settings/
+.classpath
+nbactions.xml
+nb-configuration.xml
+nbproject/
+*.iml
+
+# Plugin Hub forbids this auto-generated services file in the repo
+META-INF/services/net.runelite.client.plugins.Plugin
+
+# Python build script
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Misc
+*.tmp
+*.log

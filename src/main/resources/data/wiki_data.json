@@ -1,0 +1,5071 @@
+{
+  "quests": {
+    "a_kingdom_divided": {
+      "difficulty": "EXPERIENCED",
+      "displayName": "A Kingdom Divided",
+      "estimatedMinutes": 0,
+      "id": "a_kingdom_divided",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "x_marks_the_spot",
+        "the_queen_of_thieves",
+        "the_depths_of_despair",
+        "the_ascent_of_arceuus",
+        "the_forsaken_tower",
+        "tale_of_the_righteous"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "AGILITY": 54,
+        "CRAFTING": 38,
+        "HERBLORE": 50,
+        "MAGIC": 35,
+        "MINING": 42,
+        "THIEVING": 52,
+        "WOODCUTTING": 52
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/A_Kingdom_Divided"
+    },
+    "a_night_at_the_theatre": {
+      "difficulty": "MASTER",
+      "displayName": "A Night At The Theatre",
+      "estimatedMinutes": 0,
+      "id": "a_night_at_the_theatre",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "a_taste_of_hope"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {},
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/A_Night_At_The_Theatre"
+    },
+    "a_porcine_of_interest": {
+      "difficulty": "NOVICE",
+      "displayName": "A Porcine Of Interest",
+      "estimatedMinutes": 0,
+      "id": "a_porcine_of_interest",
+      "members": true,
+      "prerequisiteQuestIds": [],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {},
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/A_Porcine_Of_Interest"
+    },
+    "a_souls_bane": {
+      "difficulty": "INTERMEDIATE",
+      "displayName": "A Souls Bane",
+      "estimatedMinutes": 0,
+      "id": "a_souls_bane",
+      "members": true,
+      "prerequisiteQuestIds": [],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {},
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/A_Souls_Bane"
+    },
+    "a_tail_of_two_cats": {
+      "difficulty": "INTERMEDIATE",
+      "displayName": "A Tail Of Two Cats",
+      "estimatedMinutes": 0,
+      "id": "a_tail_of_two_cats",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "icthlarins_little_helper"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {},
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/A_Tail_Of_Two_Cats"
+    },
+    "a_taste_of_hope": {
+      "difficulty": "EXPERIENCED",
+      "displayName": "A Taste Of Hope",
+      "estimatedMinutes": 0,
+      "id": "a_taste_of_hope",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "darkness_of_hallowvale"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "AGILITY": 45,
+        "ATTACK": 40,
+        "CRAFTING": 48,
+        "HERBLORE": 40,
+        "SLAYER": 38
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/A_Taste_Of_Hope"
+    },
+    "alfred_grimhands_barcrawl": {
+      "difficulty": "MINIQUEST",
+      "displayName": "Alfred Grimhands Barcrawl",
+      "estimatedMinutes": 0,
+      "id": "alfred_grimhands_barcrawl",
+      "members": false,
+      "prerequisiteQuestIds": [],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "MINIQUEST",
+      "skillRequirements": {},
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Alfred_Grimhands_Barcrawl"
+    },
+    "animal_magnetism": {
+      "difficulty": "INTERMEDIATE",
+      "displayName": "Animal Magnetism",
+      "estimatedMinutes": 0,
+      "id": "animal_magnetism",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "the_restless_ghost",
+        "ernest_the_chicken",
+        "priest_in_peril"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "CRAFTING": 19,
+        "RANGED": 30,
+        "SLAYER": 18,
+        "WOODCUTTING": 35
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Animal_Magnetism"
+    },
+    "another_slice_of_ham": {
+      "difficulty": "INTERMEDIATE",
+      "displayName": "Another Slice Of Ham",
+      "estimatedMinutes": 0,
+      "id": "another_slice_of_ham",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "death_to_the_dorgeshuun",
+        "the_giant_dwarf",
+        "the_dig_site"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "ATTACK": 15,
+        "PRAYER": 25
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Another_Slice_Of_Ham"
+    },
+    "ardougne_easy": {
+      "difficulty": "ACHIEVEMENT_DIARY",
+      "displayName": "Ardougne Easy",
+      "estimatedMinutes": 0,
+      "id": "ardougne_easy",
+      "members": false,
+      "prerequisiteQuestIds": [
+        "rune_mysteries",
+        "biohazard"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "ACHIEVEMENT_DIARY",
+      "skillRequirements": {
+        "THIEVING": 5
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Ardougne_Easy"
+    },
+    "ardougne_elite": {
+      "difficulty": "ACHIEVEMENT_DIARY",
+      "displayName": "Ardougne Elite",
+      "estimatedMinutes": 0,
+      "id": "ardougne_elite",
+      "members": false,
+      "prerequisiteQuestIds": [
+        "desert_treasure",
+        "haunted_mine"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "ACHIEVEMENT_DIARY",
+      "skillRequirements": {
+        "AGILITY": 90,
+        "COOKING": 91,
+        "CRAFTING": 10,
+        "FARMING": 85,
+        "FISHING": 81,
+        "FLETCHING": 69,
+        "MAGIC": 94,
+        "SMITHING": 91,
+        "THIEVING": 82
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Ardougne_Elite"
+    },
+    "ardougne_hard": {
+      "difficulty": "ACHIEVEMENT_DIARY",
+      "displayName": "Ardougne Hard",
+      "estimatedMinutes": 0,
+      "id": "ardougne_hard",
+      "members": false,
+      "prerequisiteQuestIds": [
+        "song_of_the_elves",
+        "legends_quest",
+        "mournings_end_part_ii",
+        "watchtower"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "ACHIEVEMENT_DIARY",
+      "skillRequirements": {
+        "CONSTRUCTION": 50,
+        "FARMING": 70,
+        "HUNTER": 59,
+        "MAGIC": 66,
+        "RUNECRAFT": 65,
+        "SMITHING": 68,
+        "THIEVING": 72
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Ardougne_Hard"
+    },
+    "ardougne_medium": {
+      "difficulty": "ACHIEVEMENT_DIARY",
+      "displayName": "Ardougne Medium",
+      "estimatedMinutes": 0,
+      "id": "ardougne_medium",
+      "members": false,
+      "prerequisiteQuestIds": [
+        "enlightened_journey",
+        "the_hand_in_the_sand",
+        "tower_of_life",
+        "underground_pass",
+        "plague_city"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "ACHIEVEMENT_DIARY",
+      "skillRequirements": {
+        "AGILITY": 39,
+        "FARMING": 31,
+        "FIREMAKING": 50,
+        "MAGIC": 51,
+        "RANGED": 21,
+        "STRENGTH": 38,
+        "THIEVING": 38
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Ardougne_Medium"
+    },
+    "at_first_light": {
+      "difficulty": "NOVICE",
+      "displayName": "At First Light",
+      "estimatedMinutes": 0,
+      "id": "at_first_light",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "children_of_the_sun",
+        "eagles_peak"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "CONSTRUCTION": 27,
+        "HERBLORE": 30,
+        "HUNTER": 46
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/At_First_Light"
+    },
+    "balloon_transport_castle_wars": {
+      "difficulty": "MINIQUEST",
+      "displayName": "Castle Wars Balloon Flight",
+      "estimatedMinutes": 0,
+      "id": "balloon_transport_castle_wars",
+      "members": false,
+      "prerequisiteQuestIds": [
+        "enlightened_journey"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "MINIQUEST",
+      "skillRequirements": {
+        "FIREMAKING": 50
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Castle_Wars_Balloon_Flight"
+    },
+    "balloon_transport_crafting_guild": {
+      "difficulty": "MINIQUEST",
+      "displayName": "Crafting Guild Balloon Flight",
+      "estimatedMinutes": 0,
+      "id": "balloon_transport_crafting_guild",
+      "members": false,
+      "prerequisiteQuestIds": [
+        "enlightened_journey"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "MINIQUEST",
+      "skillRequirements": {
+        "FIREMAKING": 30
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Crafting_Guild_Balloon_Flight"
+    },
+    "balloon_transport_grand_tree": {
+      "difficulty": "MINIQUEST",
+      "displayName": "Grand Tree Balloon Flight",
+      "estimatedMinutes": 0,
+      "id": "balloon_transport_grand_tree",
+      "members": false,
+      "prerequisiteQuestIds": [
+        "enlightened_journey"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "MINIQUEST",
+      "skillRequirements": {
+        "FIREMAKING": 60
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Grand_Tree_Balloon_Flight"
+    },
+    "balloon_transport_varrock": {
+      "difficulty": "MINIQUEST",
+      "displayName": "Varrock Balloon Flight",
+      "estimatedMinutes": 0,
+      "id": "balloon_transport_varrock",
+      "members": false,
+      "prerequisiteQuestIds": [
+        "enlightened_journey"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "MINIQUEST",
+      "skillRequirements": {
+        "FIREMAKING": 40
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Varrock_Balloon_Flight"
+    },
+    "barbarian_training": {
+      "difficulty": "MINIQUEST",
+      "displayName": "Barbarian Training",
+      "estimatedMinutes": 0,
+      "id": "barbarian_training",
+      "members": false,
+      "prerequisiteQuestIds": [
+        "druidic_ritual",
+        "tai_bwo_wannai_trio"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "MINIQUEST",
+      "skillRequirements": {
+        "AGILITY": 15,
+        "CRAFTING": 11,
+        "FARMING": 15,
+        "FIREMAKING": 35,
+        "FISHING": 55,
+        "SMITHING": 5,
+        "STRENGTH": 35
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Barbarian_Training"
+    },
+    "bear_your_soul": {
+      "difficulty": "MINIQUEST",
+      "displayName": "Bear Your Soul",
+      "estimatedMinutes": 0,
+      "id": "bear_your_soul",
+      "members": false,
+      "prerequisiteQuestIds": [],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "MINIQUEST",
+      "skillRequirements": {},
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Bear_Your_Soul"
+    },
+    "below_ice_mountain": {
+      "difficulty": "NOVICE",
+      "displayName": "Below Ice Mountain",
+      "estimatedMinutes": 0,
+      "id": "below_ice_mountain",
+      "members": false,
+      "prerequisiteQuestIds": [],
+      "questPointRequirement": 16,
+      "questPointReward": 0,
+      "questType": "F2P",
+      "skillRequirements": {},
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Below_Ice_Mountain"
+    },
+    "beneath_cursed_sands": {
+      "difficulty": "MASTER",
+      "displayName": "Beneath Cursed Sands",
+      "estimatedMinutes": 0,
+      "id": "beneath_cursed_sands",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "contact"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "AGILITY": 62,
+        "CRAFTING": 55,
+        "FIREMAKING": 55
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Beneath_Cursed_Sands"
+    },
+    "between_a_rock": {
+      "difficulty": "EXPERIENCED",
+      "displayName": "Between A Rock",
+      "estimatedMinutes": 0,
+      "id": "between_a_rock",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "dwarf_cannon",
+        "fishing_contest"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "DEFENCE": 30,
+        "MINING": 40,
+        "SMITHING": 50
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Between_A_Rock"
+    },
+    "big_chompy_bird_hunting": {
+      "difficulty": "INTERMEDIATE",
+      "displayName": "Big Chompy Bird Hunting",
+      "estimatedMinutes": 0,
+      "id": "big_chompy_bird_hunting",
+      "members": true,
+      "prerequisiteQuestIds": [],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "COOKING": 30,
+        "FLETCHING": 5,
+        "RANGED": 30
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Big_Chompy_Bird_Hunting"
+    },
+    "biohazard": {
+      "difficulty": "NOVICE",
+      "displayName": "Biohazard",
+      "estimatedMinutes": 0,
+      "id": "biohazard",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "plague_city"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {},
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Biohazard"
+    },
+    "black_knights_fortress": {
+      "difficulty": "INTERMEDIATE",
+      "displayName": "Black Knight Fortress",
+      "estimatedMinutes": 0,
+      "id": "black_knights_fortress",
+      "members": false,
+      "prerequisiteQuestIds": [],
+      "questPointRequirement": 12,
+      "questPointReward": 0,
+      "questType": "F2P",
+      "skillRequirements": {},
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Black_Knight_Fortress"
+    },
+    "bone_voyage": {
+      "difficulty": "INTERMEDIATE",
+      "displayName": "Bone Voyage",
+      "estimatedMinutes": 0,
+      "id": "bone_voyage",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "the_dig_site"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "WOODCUTTING": 60
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Bone_Voyage"
+    },
+    "cabin_fever": {
+      "difficulty": "EXPERIENCED",
+      "displayName": "Cabin Fever",
+      "estimatedMinutes": 0,
+      "id": "cabin_fever",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "pirates_treasure",
+        "rum_deal",
+        "priest_in_peril"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "AGILITY": 42,
+        "CRAFTING": 45,
+        "RANGED": 40,
+        "SMITHING": 50
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Cabin_Fever"
+    },
+    "children_of_the_sun": {
+      "difficulty": "NOVICE",
+      "displayName": "Children Of The Sun",
+      "estimatedMinutes": 0,
+      "id": "children_of_the_sun",
+      "members": true,
+      "prerequisiteQuestIds": [],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {},
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Children_Of_The_Sun"
+    },
+    "client_of_kourend": {
+      "difficulty": "NOVICE",
+      "displayName": "Client Of Kourend",
+      "estimatedMinutes": 0,
+      "id": "client_of_kourend",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "x_marks_the_spot"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {},
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Client_Of_Kourend"
+    },
+    "clock_tower": {
+      "difficulty": "NOVICE",
+      "displayName": "Clock Tower",
+      "estimatedMinutes": 0,
+      "id": "clock_tower",
+      "members": true,
+      "prerequisiteQuestIds": [],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {},
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Clock_Tower"
+    },
+    "cold_war": {
+      "difficulty": "INTERMEDIATE",
+      "displayName": "Cold War",
+      "estimatedMinutes": 0,
+      "id": "cold_war",
+      "members": true,
+      "prerequisiteQuestIds": [],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "AGILITY": 30,
+        "CONSTRUCTION": 34,
+        "CRAFTING": 30,
+        "HUNTER": 10,
+        "THIEVING": 15
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Cold_War"
+    },
+    "contact": {
+      "difficulty": "EXPERIENCED",
+      "displayName": "Contact",
+      "estimatedMinutes": 0,
+      "id": "contact",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "prince_ali_rescue",
+        "icthlarins_little_helper"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {},
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Contact"
+    },
+    "cooks_assistant": {
+      "difficulty": "NOVICE",
+      "displayName": "Cooks Assistant",
+      "estimatedMinutes": 0,
+      "id": "cooks_assistant",
+      "members": false,
+      "prerequisiteQuestIds": [],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "F2P",
+      "skillRequirements": {},
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Cooks_Assistant"
+    },
+    "creature_of_fenkenstrain": {
+      "difficulty": "INTERMEDIATE",
+      "displayName": "Creature Of Fenkenstrain",
+      "estimatedMinutes": 0,
+      "id": "creature_of_fenkenstrain",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "priest_in_peril",
+        "the_restless_ghost"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "CRAFTING": 20,
+        "THIEVING": 25
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Creature_Of_Fenkenstrain"
+    },
+    "current_affairs": {
+      "difficulty": "NOVICE",
+      "displayName": "Current Affairs",
+      "estimatedMinutes": 0,
+      "id": "current_affairs",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "pandemonium"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "FISHING": 10
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Current_Affairs"
+    },
+    "curse_of_the_empty_lord": {
+      "difficulty": "MINIQUEST",
+      "displayName": "Curse Of The Empty Lord",
+      "estimatedMinutes": 0,
+      "id": "curse_of_the_empty_lord",
+      "members": false,
+      "prerequisiteQuestIds": [],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "MINIQUEST",
+      "skillRequirements": {},
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Curse_Of_The_Empty_Lord"
+    },
+    "daddys_home": {
+      "difficulty": "MINIQUEST",
+      "displayName": "Daddys Home",
+      "estimatedMinutes": 0,
+      "id": "daddys_home",
+      "members": false,
+      "prerequisiteQuestIds": [],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "MINIQUEST",
+      "skillRequirements": {},
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Daddys_Home"
+    },
+    "darkness_of_hallowvale": {
+      "difficulty": "EXPERIENCED",
+      "displayName": "Darkness Of Hallowvale",
+      "estimatedMinutes": 0,
+      "id": "darkness_of_hallowvale",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "in_aid_of_the_myreque"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "AGILITY": 26,
+        "CONSTRUCTION": 5,
+        "CRAFTING": 32,
+        "MAGIC": 33,
+        "MINING": 20,
+        "STRENGTH": 40,
+        "THIEVING": 22
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Darkness_Of_Hallowvale"
+    },
+    "death_on_the_isle": {
+      "difficulty": "INTERMEDIATE",
+      "displayName": "Death On The Isle",
+      "estimatedMinutes": 0,
+      "id": "death_on_the_isle",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "children_of_the_sun"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "AGILITY": 32,
+        "THIEVING": 34
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Death_On_The_Isle"
+    },
+    "death_plateau": {
+      "difficulty": "NOVICE",
+      "displayName": "Death Plateau",
+      "estimatedMinutes": 0,
+      "id": "death_plateau",
+      "members": true,
+      "prerequisiteQuestIds": [],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {},
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Death_Plateau"
+    },
+    "death_to_the_dorgeshuun": {
+      "difficulty": "INTERMEDIATE",
+      "displayName": "Death To The Dorgeshuun",
+      "estimatedMinutes": 0,
+      "id": "death_to_the_dorgeshuun",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "the_lost_tribe"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "AGILITY": 23,
+        "THIEVING": 23
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Death_To_The_Dorgeshuun"
+    },
+    "defender_of_varrock": {
+      "difficulty": "EXPERIENCED",
+      "displayName": "Defender Of Varrock",
+      "estimatedMinutes": 0,
+      "id": "defender_of_varrock",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "shield_of_arrav_black_arm_gang",
+        "temple_of_ikov",
+        "below_ice_mountain",
+        "family_crest",
+        "garden_of_tranquillity",
+        "what_lies_below",
+        "romeo_juliet",
+        "demon_slayer"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "HUNTER": 52,
+        "SMITHING": 55
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Defender_Of_Varrock"
+    },
+    "demon_slayer": {
+      "difficulty": "NOVICE",
+      "displayName": "Demon Slayer",
+      "estimatedMinutes": 0,
+      "id": "demon_slayer",
+      "members": false,
+      "prerequisiteQuestIds": [],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "F2P",
+      "skillRequirements": {},
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Demon_Slayer"
+    },
+    "desert_easy": {
+      "difficulty": "ACHIEVEMENT_DIARY",
+      "displayName": "Desert Easy",
+      "estimatedMinutes": 0,
+      "id": "desert_easy",
+      "members": false,
+      "prerequisiteQuestIds": [
+        "icthlarins_little_helper"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "ACHIEVEMENT_DIARY",
+      "skillRequirements": {
+        "HUNTER": 5,
+        "THIEVING": 21
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Desert_Easy"
+    },
+    "desert_elite": {
+      "difficulty": "ACHIEVEMENT_DIARY",
+      "displayName": "Desert Elite",
+      "estimatedMinutes": 0,
+      "id": "desert_elite",
+      "members": false,
+      "prerequisiteQuestIds": [
+        "desert_treasure",
+        "the_tourist_trap",
+        "priest_in_peril"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "ACHIEVEMENT_DIARY",
+      "skillRequirements": {
+        "CONSTRUCTION": 78,
+        "COOKING": 85,
+        "FLETCHING": 95,
+        "MAGIC": 94,
+        "PRAYER": 85,
+        "THIEVING": 91
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Desert_Elite"
+    },
+    "desert_hard": {
+      "difficulty": "ACHIEVEMENT_DIARY",
+      "displayName": "Desert Hard",
+      "estimatedMinutes": 0,
+      "id": "desert_hard",
+      "members": false,
+      "prerequisiteQuestIds": [
+        "the_feud",
+        "dream_mentor",
+        "desert_treasure",
+        "contact"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "ACHIEVEMENT_DIARY",
+      "skillRequirements": {
+        "AGILITY": 70,
+        "ATTACK": 50,
+        "CRAFTING": 55,
+        "DEFENCE": 10,
+        "FIREMAKING": 60,
+        "MAGIC": 68,
+        "MINING": 45,
+        "SLAYER": 65,
+        "SMITHING": 68,
+        "THIEVING": 65
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Desert_Hard"
+    },
+    "desert_medium": {
+      "difficulty": "ACHIEVEMENT_DIARY",
+      "displayName": "Desert Medium",
+      "estimatedMinutes": 0,
+      "id": "desert_medium",
+      "members": false,
+      "prerequisiteQuestIds": [
+        "the_golem",
+        "eagles_peak",
+        "spirits_of_the_elid",
+        "enakhras_lament"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "ACHIEVEMENT_DIARY",
+      "skillRequirements": {
+        "AGILITY": 30,
+        "CONSTRUCTION": 20,
+        "HERBLORE": 36,
+        "HUNTER": 47,
+        "SLAYER": 22,
+        "THIEVING": 25,
+        "WOODCUTTING": 35
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Desert_Medium"
+    },
+    "desert_treasure": {
+      "difficulty": "MASTER",
+      "displayName": "Desert Treasure",
+      "estimatedMinutes": 0,
+      "id": "desert_treasure",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "the_dig_site",
+        "temple_of_ikov",
+        "the_tourist_trap",
+        "troll_stronghold",
+        "priest_in_peril",
+        "waterfall_quest"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "FIREMAKING": 50,
+        "MAGIC": 50,
+        "SLAYER": 10,
+        "THIEVING": 53
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Desert_Treasure"
+    },
+    "desert_treasure_ii": {
+      "difficulty": "GRANDMASTER",
+      "displayName": "Desert Treasure II",
+      "estimatedMinutes": 0,
+      "id": "desert_treasure_ii",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "desert_treasure",
+        "secrets_of_the_north",
+        "enakhras_lament",
+        "temple_of_the_eye",
+        "the_garden_of_death",
+        "below_ice_mountain",
+        "his_faithful_servants"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "CONSTRUCTION": 60,
+        "FIREMAKING": 75,
+        "HERBLORE": 62,
+        "MAGIC": 75,
+        "RUNECRAFT": 60,
+        "THIEVING": 70
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Desert_Treasure_II"
+    },
+    "devious_minds": {
+      "difficulty": "EXPERIENCED",
+      "displayName": "Devious Minds",
+      "estimatedMinutes": 0,
+      "id": "devious_minds",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "wanted",
+        "troll_stronghold",
+        "dorics_quest",
+        "enter_the_abyss"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "FLETCHING": 50,
+        "RUNECRAFT": 50,
+        "SMITHING": 65
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Devious_Minds"
+    },
+    "dorics_quest": {
+      "difficulty": "NOVICE",
+      "displayName": "Dorics Quest",
+      "estimatedMinutes": 0,
+      "id": "dorics_quest",
+      "members": false,
+      "prerequisiteQuestIds": [],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "F2P",
+      "skillRequirements": {
+        "MINING": 15
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Dorics_Quest"
+    },
+    "dragon_slayer_i": {
+      "difficulty": "EXPERIENCED",
+      "displayName": "Dragon Slayer",
+      "estimatedMinutes": 0,
+      "id": "dragon_slayer_i",
+      "members": false,
+      "prerequisiteQuestIds": [],
+      "questPointRequirement": 32,
+      "questPointReward": 0,
+      "questType": "F2P",
+      "skillRequirements": {},
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Dragon_Slayer"
+    },
+    "dragon_slayer_ii": {
+      "difficulty": "GRANDMASTER",
+      "displayName": "Dragon Slayer II",
+      "estimatedMinutes": 0,
+      "id": "dragon_slayer_ii",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "legends_quest",
+        "dream_mentor",
+        "a_tail_of_two_cats",
+        "animal_magnetism",
+        "ghosts_ahoy",
+        "bone_voyage",
+        "client_of_kourend"
+      ],
+      "questPointRequirement": 200,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "AGILITY": 60,
+        "CONSTRUCTION": 50,
+        "CRAFTING": 62,
+        "HITPOINTS": 50,
+        "MAGIC": 75,
+        "MINING": 68,
+        "SMITHING": 70,
+        "THIEVING": 60
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Dragon_Slayer_II"
+    },
+    "dream_mentor": {
+      "difficulty": "MASTER",
+      "displayName": "Dream Mentor",
+      "estimatedMinutes": 0,
+      "id": "dream_mentor",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "lunar_diplomacy",
+        "eadgars_ruse"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {},
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Dream_Mentor"
+    },
+    "druidic_ritual": {
+      "difficulty": "NOVICE",
+      "displayName": "Druidic Ritual",
+      "estimatedMinutes": 0,
+      "id": "druidic_ritual",
+      "members": true,
+      "prerequisiteQuestIds": [],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {},
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Druidic_Ritual"
+    },
+    "dwarf_cannon": {
+      "difficulty": "NOVICE",
+      "displayName": "Dwarf Cannon",
+      "estimatedMinutes": 0,
+      "id": "dwarf_cannon",
+      "members": true,
+      "prerequisiteQuestIds": [],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {},
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Dwarf_Cannon"
+    },
+    "eadgars_ruse": {
+      "difficulty": "INTERMEDIATE",
+      "displayName": "Eadgars Ruse",
+      "estimatedMinutes": 0,
+      "id": "eadgars_ruse",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "druidic_ritual",
+        "troll_stronghold"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "HERBLORE": 31
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Eadgars_Ruse"
+    },
+    "eagles_peak": {
+      "difficulty": "NOVICE",
+      "displayName": "Eagles Peak",
+      "estimatedMinutes": 0,
+      "id": "eagles_peak",
+      "members": true,
+      "prerequisiteQuestIds": [],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "HUNTER": 27
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Eagles_Peak"
+    },
+    "elemental_workshop_i": {
+      "difficulty": "NOVICE",
+      "displayName": "Elemental Workshop I",
+      "estimatedMinutes": 0,
+      "id": "elemental_workshop_i",
+      "members": true,
+      "prerequisiteQuestIds": [],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "CRAFTING": 20,
+        "MINING": 20,
+        "SMITHING": 20
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Elemental_Workshop_I"
+    },
+    "elemental_workshop_ii": {
+      "difficulty": "INTERMEDIATE",
+      "displayName": "Elemental Workshop II",
+      "estimatedMinutes": 0,
+      "id": "elemental_workshop_ii",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "elemental_workshop_i"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "MAGIC": 20,
+        "SMITHING": 30
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Elemental_Workshop_II"
+    },
+    "enakhras_lament": {
+      "difficulty": "EXPERIENCED",
+      "displayName": "Enakhras Lament",
+      "estimatedMinutes": 0,
+      "id": "enakhras_lament",
+      "members": true,
+      "prerequisiteQuestIds": [],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "CRAFTING": 50,
+        "FIREMAKING": 45,
+        "MAGIC": 39,
+        "MINING": 45,
+        "PRAYER": 43
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Enakhras_Lament"
+    },
+    "enchanted_key": {
+      "difficulty": "MINIQUEST",
+      "displayName": "Enchanted Key",
+      "estimatedMinutes": 0,
+      "id": "enchanted_key",
+      "members": false,
+      "prerequisiteQuestIds": [
+        "making_history"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "MINIQUEST",
+      "skillRequirements": {},
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Enchanted_Key"
+    },
+    "enlightened_journey": {
+      "difficulty": "INTERMEDIATE",
+      "displayName": "Enlightened Journey",
+      "estimatedMinutes": 0,
+      "id": "enlightened_journey",
+      "members": true,
+      "prerequisiteQuestIds": [],
+      "questPointRequirement": 20,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "CRAFTING": 36,
+        "FARMING": 30,
+        "FIREMAKING": 20
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Enlightened_Journey"
+    },
+    "enter_the_abyss": {
+      "difficulty": "MINIQUEST",
+      "displayName": "Enter The Abyss",
+      "estimatedMinutes": 0,
+      "id": "enter_the_abyss",
+      "members": false,
+      "prerequisiteQuestIds": [
+        "rune_mysteries"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "MINIQUEST",
+      "skillRequirements": {},
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Enter_The_Abyss"
+    },
+    "ernest_the_chicken": {
+      "difficulty": "NOVICE",
+      "displayName": "Ernest The Chicken",
+      "estimatedMinutes": 0,
+      "id": "ernest_the_chicken",
+      "members": false,
+      "prerequisiteQuestIds": [],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "F2P",
+      "skillRequirements": {},
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Ernest_The_Chicken"
+    },
+    "ethically_acquired_antiquities": {
+      "difficulty": "NOVICE",
+      "displayName": "Ethically Acquired Antiquities",
+      "estimatedMinutes": 0,
+      "id": "ethically_acquired_antiquities",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "children_of_the_sun",
+        "shield_of_arrav_black_arm_gang"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "THIEVING": 25
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Ethically_Acquired_Antiquities"
+    },
+    "fairytale_i_growing_pains": {
+      "difficulty": "INTERMEDIATE",
+      "displayName": "Fairytale I",
+      "estimatedMinutes": 0,
+      "id": "fairytale_i_growing_pains",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "lost_city",
+        "nature_spirit"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {},
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Fairytale_I"
+    },
+    "fairytale_ii_cure_a_queen": {
+      "difficulty": "EXPERIENCED",
+      "displayName": "Fairytale II",
+      "estimatedMinutes": 0,
+      "id": "fairytale_ii_cure_a_queen",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "fairytale_i_growing_pains"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "FARMING": 49,
+        "HERBLORE": 57,
+        "THIEVING": 40
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Fairytale_II"
+    },
+    "falador_easy": {
+      "difficulty": "ACHIEVEMENT_DIARY",
+      "displayName": "Falador Easy",
+      "estimatedMinutes": 0,
+      "id": "falador_easy",
+      "members": false,
+      "prerequisiteQuestIds": [
+        "dorics_quest",
+        "the_knights_sword",
+        "rune_mysteries"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "ACHIEVEMENT_DIARY",
+      "skillRequirements": {
+        "AGILITY": 5,
+        "CONSTRUCTION": 16,
+        "MINING": 10,
+        "SMITHING": 13
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Falador_Easy"
+    },
+    "falador_elite": {
+      "difficulty": "ACHIEVEMENT_DIARY",
+      "displayName": "Falador Elite",
+      "estimatedMinutes": 0,
+      "id": "falador_elite",
+      "members": false,
+      "prerequisiteQuestIds": [
+        "wanted"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "ACHIEVEMENT_DIARY",
+      "skillRequirements": {
+        "AGILITY": 80,
+        "FARMING": 91,
+        "HERBLORE": 81,
+        "RUNECRAFT": 88,
+        "WOODCUTTING": 75
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Falador_Elite"
+    },
+    "falador_hard": {
+      "difficulty": "ACHIEVEMENT_DIARY",
+      "displayName": "Falador Hard",
+      "estimatedMinutes": 0,
+      "id": "falador_hard",
+      "members": false,
+      "prerequisiteQuestIds": [
+        "the_slug_menace",
+        "heroes_quest",
+        "grim_tales"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "ACHIEVEMENT_DIARY",
+      "skillRequirements": {
+        "AGILITY": 50,
+        "DEFENCE": 50,
+        "MINING": 60,
+        "PRAYER": 70,
+        "RUNECRAFT": 56,
+        "SLAYER": 72,
+        "THIEVING": 50
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Falador_Hard"
+    },
+    "falador_medium": {
+      "difficulty": "ACHIEVEMENT_DIARY",
+      "displayName": "Falador Medium",
+      "estimatedMinutes": 0,
+      "id": "falador_medium",
+      "members": false,
+      "prerequisiteQuestIds": [
+        "skippy_and_the_mogres",
+        "recruitment_drive"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "ACHIEVEMENT_DIARY",
+      "skillRequirements": {
+        "AGILITY": 42,
+        "CRAFTING": 40,
+        "DEFENCE": 20,
+        "FARMING": 47,
+        "FIREMAKING": 49,
+        "FLETCHING": 59,
+        "MAGIC": 37,
+        "MINING": 40,
+        "PRAYER": 10,
+        "RANGED": 19,
+        "SLAYER": 32,
+        "SMITHING": 59,
+        "STRENGTH": 37,
+        "THIEVING": 40,
+        "WOODCUTTING": 30
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Falador_Medium"
+    },
+    "family_crest": {
+      "difficulty": "EXPERIENCED",
+      "displayName": "Family Crest",
+      "estimatedMinutes": 0,
+      "id": "family_crest",
+      "members": true,
+      "prerequisiteQuestIds": [],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "CRAFTING": 40,
+        "MAGIC": 59,
+        "MINING": 40,
+        "SMITHING": 40
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Family_Crest"
+    },
+    "family_pest": {
+      "difficulty": "MINIQUEST",
+      "displayName": "Family Pest",
+      "estimatedMinutes": 0,
+      "id": "family_pest",
+      "members": false,
+      "prerequisiteQuestIds": [
+        "family_crest"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "MINIQUEST",
+      "skillRequirements": {},
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Family_Pest"
+    },
+    "fight_arena": {
+      "difficulty": "INTERMEDIATE",
+      "displayName": "Fight Arena",
+      "estimatedMinutes": 0,
+      "id": "fight_arena",
+      "members": true,
+      "prerequisiteQuestIds": [],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {},
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Fight_Arena"
+    },
+    "fishing_contest": {
+      "difficulty": "NOVICE",
+      "displayName": "Fishing Contest",
+      "estimatedMinutes": 0,
+      "id": "fishing_contest",
+      "members": true,
+      "prerequisiteQuestIds": [],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "FISHING": 10
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Fishing_Contest"
+    },
+    "forgettable_tale": {
+      "difficulty": "INTERMEDIATE",
+      "displayName": "Forgettable Tale",
+      "estimatedMinutes": 0,
+      "id": "forgettable_tale",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "the_giant_dwarf",
+        "fishing_contest"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "COOKING": 22,
+        "FARMING": 17
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Forgettable_Tale"
+    },
+    "fremennik_easy": {
+      "difficulty": "ACHIEVEMENT_DIARY",
+      "displayName": "Fremennik Easy",
+      "estimatedMinutes": 0,
+      "id": "fremennik_easy",
+      "members": false,
+      "prerequisiteQuestIds": [
+        "the_fremennik_trials",
+        "troll_stronghold",
+        "death_plateau"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "ACHIEVEMENT_DIARY",
+      "skillRequirements": {
+        "CRAFTING": 23,
+        "FIREMAKING": 15,
+        "HUNTER": 11,
+        "MINING": 20,
+        "SMITHING": 20,
+        "THIEVING": 5,
+        "WOODCUTTING": 15
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Fremennik_Easy"
+    },
+    "fremennik_elite": {
+      "difficulty": "ACHIEVEMENT_DIARY",
+      "displayName": "Fremennik Elite",
+      "estimatedMinutes": 0,
+      "id": "fremennik_elite",
+      "members": false,
+      "prerequisiteQuestIds": [
+        "the_fremennik_isles",
+        "troll_stronghold",
+        "lunar_diplomacy"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "ACHIEVEMENT_DIARY",
+      "skillRequirements": {
+        "AGILITY": 80,
+        "CRAFTING": 80,
+        "HITPOINTS": 70,
+        "PRAYER": 43,
+        "RANGED": 70,
+        "RUNECRAFT": 82,
+        "SLAYER": 83,
+        "STRENGTH": 70
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Fremennik_Elite"
+    },
+    "fremennik_hard": {
+      "difficulty": "ACHIEVEMENT_DIARY",
+      "displayName": "Fremennik Hard",
+      "estimatedMinutes": 0,
+      "id": "fremennik_hard",
+      "members": false,
+      "prerequisiteQuestIds": [
+        "the_fremennik_isles",
+        "throne_of_miscellania",
+        "eadgars_ruse",
+        "lunar_diplomacy"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "ACHIEVEMENT_DIARY",
+      "skillRequirements": {
+        "HERBLORE": 66,
+        "HUNTER": 55,
+        "MAGIC": 72,
+        "MINING": 70,
+        "SMITHING": 60,
+        "THIEVING": 75,
+        "WOODCUTTING": 56
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Fremennik_Hard"
+    },
+    "fremennik_medium": {
+      "difficulty": "ACHIEVEMENT_DIARY",
+      "displayName": "Fremennik Medium",
+      "estimatedMinutes": 0,
+      "id": "fremennik_medium",
+      "members": false,
+      "prerequisiteQuestIds": [
+        "eagles_peak",
+        "fairytale_i_growing_pains",
+        "lost_city",
+        "nature_spirit",
+        "olafs_quest",
+        "the_fremennik_trials",
+        "between_a_rock",
+        "dwarf_cannon",
+        "fishing_contest",
+        "horror_from_the_deep"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "ACHIEVEMENT_DIARY",
+      "skillRequirements": {
+        "CONSTRUCTION": 37,
+        "HUNTER": 35,
+        "MINING": 40,
+        "PRAYER": 43,
+        "SLAYER": 47,
+        "THIEVING": 42
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Fremennik_Medium"
+    },
+    "garden_of_tranquillity": {
+      "difficulty": "INTERMEDIATE",
+      "displayName": "Garden Of Tranquillity",
+      "estimatedMinutes": 0,
+      "id": "garden_of_tranquillity",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "creature_of_fenkenstrain"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "FARMING": 25
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Garden_Of_Tranquillity"
+    },
+    "gertrudes_cat": {
+      "difficulty": "NOVICE",
+      "displayName": "Gertrudes Cat",
+      "estimatedMinutes": 0,
+      "id": "gertrudes_cat",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "gertrudes_cat"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {},
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Gertrudes_Cat"
+    },
+    "getting_ahead": {
+      "difficulty": "INTERMEDIATE",
+      "displayName": "Getting Ahead",
+      "estimatedMinutes": 0,
+      "id": "getting_ahead",
+      "members": true,
+      "prerequisiteQuestIds": [],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "CONSTRUCTION": 26,
+        "CRAFTING": 30
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Getting_Ahead"
+    },
+    "ghosts_ahoy": {
+      "difficulty": "INTERMEDIATE",
+      "displayName": "Ghosts Ahoy",
+      "estimatedMinutes": 0,
+      "id": "ghosts_ahoy",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "priest_in_peril",
+        "the_restless_ghost"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "AGILITY": 25,
+        "COOKING": 20
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Ghosts_Ahoy"
+    },
+    "goblin_diplomacy": {
+      "difficulty": "NOVICE",
+      "displayName": "Goblin Diplomacy",
+      "estimatedMinutes": 0,
+      "id": "goblin_diplomacy",
+      "members": false,
+      "prerequisiteQuestIds": [],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "F2P",
+      "skillRequirements": {},
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Goblin_Diplomacy"
+    },
+    "grim_tales": {
+      "difficulty": "MASTER",
+      "displayName": "Grim Tales",
+      "estimatedMinutes": 0,
+      "id": "grim_tales",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "witchs_house"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "AGILITY": 59,
+        "FARMING": 45,
+        "HERBLORE": 52,
+        "THIEVING": 58,
+        "WOODCUTTING": 71
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Grim_Tales"
+    },
+    "haunted_mine": {
+      "difficulty": "EXPERIENCED",
+      "displayName": "Haunted Mine",
+      "estimatedMinutes": 0,
+      "id": "haunted_mine",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "priest_in_peril"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "CRAFTING": 35
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Haunted_Mine"
+    },
+    "hazeel_cult": {
+      "difficulty": "NOVICE",
+      "displayName": "Hazeel Cult",
+      "estimatedMinutes": 0,
+      "id": "hazeel_cult",
+      "members": true,
+      "prerequisiteQuestIds": [],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {},
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Hazeel_Cult"
+    },
+    "heroes_quest": {
+      "difficulty": "EXPERIENCED",
+      "displayName": "Heroes Quest",
+      "estimatedMinutes": 0,
+      "id": "heroes_quest",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "shield_of_arrav_black_arm_gang",
+        "lost_city",
+        "merlins_crystal",
+        "dragon_slayer_i"
+      ],
+      "questPointRequirement": 55,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "AGILITY": 70,
+        "COOKING": 53,
+        "FISHING": 53,
+        "HERBLORE": 25,
+        "MINING": 50
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Heroes_Quest"
+    },
+    "his_faithful_servants": {
+      "difficulty": "MINIQUEST",
+      "displayName": "His Faithful Servants",
+      "estimatedMinutes": 0,
+      "id": "his_faithful_servants",
+      "members": false,
+      "prerequisiteQuestIds": [
+        "priest_in_peril"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "MINIQUEST",
+      "skillRequirements": {},
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/His_Faithful_Servants"
+    },
+    "holy_grail": {
+      "difficulty": "INTERMEDIATE",
+      "displayName": "Holy Grail",
+      "estimatedMinutes": 0,
+      "id": "holy_grail",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "merlins_crystal"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "ATTACK": 20
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Holy_Grail"
+    },
+    "hopespears_will": {
+      "difficulty": "MINIQUEST",
+      "displayName": "Hopespears Will",
+      "estimatedMinutes": 0,
+      "id": "hopespears_will",
+      "members": false,
+      "prerequisiteQuestIds": [
+        "desert_treasure",
+        "fairytale_ii_cure_a_queen",
+        "land_of_the_goblins"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "MINIQUEST",
+      "skillRequirements": {
+        "PRAYER": 50
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Hopespears_Will"
+    },
+    "horror_from_the_deep": {
+      "difficulty": "INTERMEDIATE",
+      "displayName": "Horror From The Deep",
+      "estimatedMinutes": 0,
+      "id": "horror_from_the_deep",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "alfred_grimhands_barcrawl"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "AGILITY": 35
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Horror_From_The_Deep"
+    },
+    "icthlarins_little_helper": {
+      "difficulty": "INTERMEDIATE",
+      "displayName": "Icthlarins Little Helper",
+      "estimatedMinutes": 0,
+      "id": "icthlarins_little_helper",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "gertrudes_cat"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {},
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Icthlarins_Little_Helper"
+    },
+    "imp_catcher": {
+      "difficulty": "NOVICE",
+      "displayName": "Imp Catcher",
+      "estimatedMinutes": 0,
+      "id": "imp_catcher",
+      "members": false,
+      "prerequisiteQuestIds": [],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "F2P",
+      "skillRequirements": {},
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Imp_Catcher"
+    },
+    "in_aid_of_the_myreque": {
+      "difficulty": "INTERMEDIATE",
+      "displayName": "In Aid Of The Myreque",
+      "estimatedMinutes": 0,
+      "id": "in_aid_of_the_myreque",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "in_search_of_the_myreque"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "CRAFTING": 25,
+        "MAGIC": 7,
+        "MINING": 15
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/In_Aid_Of_The_Myreque"
+    },
+    "in_search_of_knowledge": {
+      "difficulty": "MINIQUEST",
+      "displayName": "In Search Of Knowledge",
+      "estimatedMinutes": 0,
+      "id": "in_search_of_knowledge",
+      "members": false,
+      "prerequisiteQuestIds": [],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "MINIQUEST",
+      "skillRequirements": {},
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/In_Search_Of_Knowledge"
+    },
+    "in_search_of_the_myreque": {
+      "difficulty": "INTERMEDIATE",
+      "displayName": "In Search Of The Myreque",
+      "estimatedMinutes": 0,
+      "id": "in_search_of_the_myreque",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "nature_spirit"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "AGILITY": 25
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/In_Search_Of_The_Myreque"
+    },
+    "jungle_potion": {
+      "difficulty": "NOVICE",
+      "displayName": "Jungle Potion",
+      "estimatedMinutes": 0,
+      "id": "jungle_potion",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "druidic_ritual"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "HERBLORE": 3
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Jungle_Potion"
+    },
+    "kandarin_easy": {
+      "difficulty": "ACHIEVEMENT_DIARY",
+      "displayName": "Kandarin Easy",
+      "estimatedMinutes": 0,
+      "id": "kandarin_easy",
+      "members": false,
+      "prerequisiteQuestIds": [
+        "elemental_workshop_i"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "ACHIEVEMENT_DIARY",
+      "skillRequirements": {
+        "AGILITY": 20,
+        "FARMING": 13,
+        "FISHING": 16
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Kandarin_Easy"
+    },
+    "kandarin_elite": {
+      "difficulty": "ACHIEVEMENT_DIARY",
+      "displayName": "Kandarin Elite",
+      "estimatedMinutes": 0,
+      "id": "kandarin_elite",
+      "members": false,
+      "prerequisiteQuestIds": [
+        "family_crest",
+        "lunar_diplomacy"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "ACHIEVEMENT_DIARY",
+      "skillRequirements": {
+        "AGILITY": 60,
+        "COOKING": 80,
+        "CRAFTING": 85,
+        "FARMING": 79,
+        "FIREMAKING": 85,
+        "FISHING": 76,
+        "HERBLORE": 86,
+        "MAGIC": 87,
+        "SMITHING": 90
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Kandarin_Elite"
+    },
+    "kandarin_hard": {
+      "difficulty": "ACHIEVEMENT_DIARY",
+      "displayName": "Kandarin Hard",
+      "estimatedMinutes": 0,
+      "id": "kandarin_hard",
+      "members": false,
+      "prerequisiteQuestIds": [
+        "tai_bwo_wannai_trio",
+        "desert_treasure",
+        "kings_ransom"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "ACHIEVEMENT_DIARY",
+      "skillRequirements": {
+        "AGILITY": 70,
+        "CONSTRUCTION": 50,
+        "DEFENCE": 70,
+        "FIREMAKING": 65,
+        "FISHING": 70,
+        "FLETCHING": 70,
+        "MAGIC": 56,
+        "PRAYER": 70,
+        "SMITHING": 75,
+        "STRENGTH": 50,
+        "THIEVING": 53,
+        "WOODCUTTING": 60
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Kandarin_Hard"
+    },
+    "kandarin_medium": {
+      "difficulty": "ACHIEVEMENT_DIARY",
+      "displayName": "Kandarin Medium",
+      "estimatedMinutes": 0,
+      "id": "kandarin_medium",
+      "members": false,
+      "prerequisiteQuestIds": [
+        "alfred_grimhands_barcrawl",
+        "elemental_workshop_ii",
+        "waterfall_quest"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "ACHIEVEMENT_DIARY",
+      "skillRequirements": {
+        "AGILITY": 70,
+        "COOKING": 43,
+        "FARMING": 26,
+        "FISHING": 46,
+        "FLETCHING": 50,
+        "HERBLORE": 48,
+        "MAGIC": 45,
+        "MINING": 30,
+        "RANGED": 40,
+        "STRENGTH": 22,
+        "THIEVING": 47
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Kandarin_Medium"
+    },
+    "karamja_easy": {
+      "difficulty": "ACHIEVEMENT_DIARY",
+      "displayName": "Karamja Easy",
+      "estimatedMinutes": 0,
+      "id": "karamja_easy",
+      "members": false,
+      "prerequisiteQuestIds": [],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "ACHIEVEMENT_DIARY",
+      "skillRequirements": {
+        "AGILITY": 15,
+        "MINING": 40
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Karamja_Easy"
+    },
+    "karamja_elite": {
+      "difficulty": "ACHIEVEMENT_DIARY",
+      "displayName": "Karamja Elite",
+      "estimatedMinutes": 0,
+      "id": "karamja_elite",
+      "members": false,
+      "prerequisiteQuestIds": [],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "ACHIEVEMENT_DIARY",
+      "skillRequirements": {
+        "FARMING": 72,
+        "HERBLORE": 87,
+        "RUNECRAFT": 91
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Karamja_Elite"
+    },
+    "karamja_hard": {
+      "difficulty": "ACHIEVEMENT_DIARY",
+      "displayName": "Karamja Hard",
+      "estimatedMinutes": 0,
+      "id": "karamja_hard",
+      "members": false,
+      "prerequisiteQuestIds": [
+        "tai_bwo_wannai_trio",
+        "shilo_village"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "ACHIEVEMENT_DIARY",
+      "skillRequirements": {
+        "AGILITY": 53,
+        "COOKING": 50,
+        "MINING": 52,
+        "RANGED": 42,
+        "RUNECRAFT": 44,
+        "SLAYER": 50,
+        "STRENGTH": 50,
+        "THIEVING": 50,
+        "WOODCUTTING": 34
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Karamja_Hard"
+    },
+    "karamja_medium": {
+      "difficulty": "ACHIEVEMENT_DIARY",
+      "displayName": "Karamja Medium",
+      "estimatedMinutes": 0,
+      "id": "karamja_medium",
+      "members": false,
+      "prerequisiteQuestIds": [
+        "the_grand_tree",
+        "tai_bwo_wannai_trio",
+        "dragon_slayer_i",
+        "shilo_village",
+        "jungle_potion"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "ACHIEVEMENT_DIARY",
+      "skillRequirements": {
+        "AGILITY": 12,
+        "COOKING": 16,
+        "FARMING": 27,
+        "FISHING": 65,
+        "HUNTER": 41,
+        "MINING": 40,
+        "WOODCUTTING": 50
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Karamja_Medium"
+    },
+    "kings_ransom": {
+      "difficulty": "EXPERIENCED",
+      "displayName": "Kings Ransom",
+      "estimatedMinutes": 0,
+      "id": "kings_ransom",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "black_knights_fortress",
+        "holy_grail",
+        "murder_mystery",
+        "one_small_favour"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "DEFENCE": 65,
+        "MAGIC": 45
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Kings_Ransom"
+    },
+    "kourend_easy": {
+      "difficulty": "ACHIEVEMENT_DIARY",
+      "displayName": "Kourend Easy",
+      "estimatedMinutes": 0,
+      "id": "kourend_easy",
+      "members": false,
+      "prerequisiteQuestIds": [
+        "druidic_ritual"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "ACHIEVEMENT_DIARY",
+      "skillRequirements": {
+        "CONSTRUCTION": 25,
+        "FISHING": 20,
+        "HERBLORE": 12,
+        "MINING": 15,
+        "THIEVING": 25
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Kourend_Easy"
+    },
+    "kourend_elite": {
+      "difficulty": "ACHIEVEMENT_DIARY",
+      "displayName": "Kourend Elite",
+      "estimatedMinutes": 0,
+      "id": "kourend_elite",
+      "members": false,
+      "prerequisiteQuestIds": [],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "ACHIEVEMENT_DIARY",
+      "skillRequirements": {
+        "COOKING": 84,
+        "CRAFTING": 38,
+        "FARMING": 85,
+        "FISHING": 82,
+        "FLETCHING": 40,
+        "MAGIC": 90,
+        "MINING": 38,
+        "RUNECRAFT": 77,
+        "SLAYER": 95,
+        "WOODCUTTING": 90
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Kourend_Elite"
+    },
+    "kourend_hard": {
+      "difficulty": "ACHIEVEMENT_DIARY",
+      "displayName": "Kourend Hard",
+      "estimatedMinutes": 0,
+      "id": "kourend_hard",
+      "members": false,
+      "prerequisiteQuestIds": [
+        "dream_mentor",
+        "the_forsaken_tower"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "ACHIEVEMENT_DIARY",
+      "skillRequirements": {
+        "FARMING": 74,
+        "MAGIC": 66,
+        "MINING": 65,
+        "SLAYER": 62,
+        "SMITHING": 70,
+        "THIEVING": 49,
+        "WOODCUTTING": 60
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Kourend_Hard"
+    },
+    "kourend_medium": {
+      "difficulty": "ACHIEVEMENT_DIARY",
+      "displayName": "Kourend Medium",
+      "estimatedMinutes": 0,
+      "id": "kourend_medium",
+      "members": false,
+      "prerequisiteQuestIds": [
+        "the_depths_of_despair",
+        "the_queen_of_thieves",
+        "tale_of_the_righteous",
+        "the_forsaken_tower",
+        "the_ascent_of_arceuus",
+        "eagles_peak"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "ACHIEVEMENT_DIARY",
+      "skillRequirements": {
+        "AGILITY": 49,
+        "CRAFTING": 30,
+        "FARMING": 45,
+        "FIREMAKING": 50,
+        "FISHING": 43,
+        "HUNTER": 53,
+        "MINING": 42,
+        "WOODCUTTING": 50
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Kourend_Medium"
+    },
+    "lair_of_tarn_razorlor": {
+      "difficulty": "MINIQUEST",
+      "displayName": "Lair Of Tarn Razorlor",
+      "estimatedMinutes": 0,
+      "id": "lair_of_tarn_razorlor",
+      "members": false,
+      "prerequisiteQuestIds": [
+        "haunted_mine"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "MINIQUEST",
+      "skillRequirements": {
+        "SLAYER": 40
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Lair_Of_Tarn_Razorlor"
+    },
+    "land_of_the_goblins": {
+      "difficulty": "EXPERIENCED",
+      "displayName": "Land Of The Goblins",
+      "estimatedMinutes": 0,
+      "id": "land_of_the_goblins",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "another_slice_of_ham",
+        "fishing_contest"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "AGILITY": 38,
+        "FISHING": 40,
+        "HERBLORE": 48,
+        "THIEVING": 45
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Land_Of_The_Goblins"
+    },
+    "legends_quest": {
+      "difficulty": "MASTER",
+      "displayName": "Legends Quest",
+      "estimatedMinutes": 0,
+      "id": "legends_quest",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "family_crest",
+        "heroes_quest",
+        "shilo_village",
+        "underground_pass",
+        "waterfall_quest"
+      ],
+      "questPointRequirement": 107,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "AGILITY": 50,
+        "CRAFTING": 50,
+        "HERBLORE": 45,
+        "MAGIC": 66,
+        "MINING": 52,
+        "PRAYER": 42,
+        "SMITHING": 50,
+        "STRENGTH": 50,
+        "THIEVING": 50,
+        "WOODCUTTING": 50
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Legends_Quest"
+    },
+    "lost_city": {
+      "difficulty": "INTERMEDIATE",
+      "displayName": "Lost City",
+      "estimatedMinutes": 0,
+      "id": "lost_city",
+      "members": true,
+      "prerequisiteQuestIds": [],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "CRAFTING": 31,
+        "WOODCUTTING": 36
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Lost_City"
+    },
+    "lumbridge_easy": {
+      "difficulty": "ACHIEVEMENT_DIARY",
+      "displayName": "Lumbridge Easy",
+      "estimatedMinutes": 0,
+      "id": "lumbridge_easy",
+      "members": false,
+      "prerequisiteQuestIds": [
+        "rune_mysteries",
+        "cooks_assistant"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "ACHIEVEMENT_DIARY",
+      "skillRequirements": {
+        "FIREMAKING": 15,
+        "FISHING": 15,
+        "MINING": 15,
+        "RUNECRAFT": 5,
+        "SLAYER": 7,
+        "WOODCUTTING": 15
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Lumbridge_Easy"
+    },
+    "lumbridge_elite": {
+      "difficulty": "ACHIEVEMENT_DIARY",
+      "displayName": "Lumbridge Elite",
+      "estimatedMinutes": 0,
+      "id": "lumbridge_elite",
+      "members": false,
+      "prerequisiteQuestIds": [
+        "death_to_the_dorgeshuun",
+        "temple_of_ikov"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "ACHIEVEMENT_DIARY",
+      "skillRequirements": {
+        "AGILITY": 70,
+        "RANGED": 70,
+        "RUNECRAFT": 76,
+        "SMITHING": 88,
+        "STRENGTH": 70,
+        "THIEVING": 78,
+        "WOODCUTTING": 75
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Lumbridge_Elite"
+    },
+    "lumbridge_hard": {
+      "difficulty": "ACHIEVEMENT_DIARY",
+      "displayName": "Lumbridge Hard",
+      "estimatedMinutes": 0,
+      "id": "lumbridge_hard",
+      "members": false,
+      "prerequisiteQuestIds": [
+        "recipe_for_disaster_start",
+        "another_slice_of_ham",
+        "tears_of_guthix",
+        "lost_city"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "ACHIEVEMENT_DIARY",
+      "skillRequirements": {
+        "AGILITY": 46,
+        "CRAFTING": 70,
+        "FARMING": 63,
+        "FIREMAKING": 65,
+        "MAGIC": 60,
+        "PRAYER": 52,
+        "RUNECRAFT": 59,
+        "WOODCUTTING": 57
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Lumbridge_Hard"
+    },
+    "lumbridge_medium": {
+      "difficulty": "ACHIEVEMENT_DIARY",
+      "displayName": "Lumbridge Medium",
+      "estimatedMinutes": 0,
+      "id": "lumbridge_medium",
+      "members": false,
+      "prerequisiteQuestIds": [
+        "animal_magnetism",
+        "lost_city"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "ACHIEVEMENT_DIARY",
+      "skillRequirements": {
+        "AGILITY": 20,
+        "CRAFTING": 38,
+        "FISHING": 30,
+        "HUNTER": 42,
+        "MAGIC": 31,
+        "RANGED": 50,
+        "RUNECRAFT": 23,
+        "STRENGTH": 19,
+        "THIEVING": 38,
+        "WOODCUTTING": 30
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Lumbridge_Medium"
+    },
+    "lunar_diplomacy": {
+      "difficulty": "EXPERIENCED",
+      "displayName": "Lunar Diplomacy",
+      "estimatedMinutes": 0,
+      "id": "lunar_diplomacy",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "the_fremennik_trials",
+        "lost_city",
+        "rune_mysteries",
+        "shilo_village"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "CRAFTING": 61,
+        "DEFENCE": 40,
+        "FIREMAKING": 49,
+        "HERBLORE": 5,
+        "MAGIC": 65,
+        "MINING": 60,
+        "WOODCUTTING": 55
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Lunar_Diplomacy"
+    },
+    "making_friends_with_my_arm": {
+      "difficulty": "MASTER",
+      "displayName": "Making Friends With My Arm",
+      "estimatedMinutes": 0,
+      "id": "making_friends_with_my_arm",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "my_arms_big_adventure",
+        "swan_song",
+        "cold_war",
+        "romeo_juliet"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "AGILITY": 68,
+        "CONSTRUCTION": 35,
+        "FIREMAKING": 66,
+        "MINING": 72
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Making_Friends_With_My_Arm"
+    },
+    "making_history": {
+      "difficulty": "INTERMEDIATE",
+      "displayName": "Making History",
+      "estimatedMinutes": 0,
+      "id": "making_history",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "ghosts_ahoy",
+        "priest_in_peril"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {},
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Making_History"
+    },
+    "meat_and_greet": {
+      "difficulty": "EXPERIENCED",
+      "displayName": "Meat And Greet",
+      "estimatedMinutes": 0,
+      "id": "meat_and_greet",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "children_of_the_sun"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "PRAYER": 43
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Meat_And_Greet"
+    },
+    "merlins_crystal": {
+      "difficulty": "INTERMEDIATE",
+      "displayName": "Merlins Crystal",
+      "estimatedMinutes": 0,
+      "id": "merlins_crystal",
+      "members": true,
+      "prerequisiteQuestIds": [],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {},
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Merlins_Crystal"
+    },
+    "misthalin_mystery": {
+      "difficulty": "NOVICE",
+      "displayName": "Misthalin Mystery",
+      "estimatedMinutes": 0,
+      "id": "misthalin_mystery",
+      "members": false,
+      "prerequisiteQuestIds": [],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "F2P",
+      "skillRequirements": {},
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Misthalin_Mystery"
+    },
+    "monkey_madness_i": {
+      "difficulty": "MASTER",
+      "displayName": "Monkey Madness I",
+      "estimatedMinutes": 0,
+      "id": "monkey_madness_i",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "the_grand_tree",
+        "tree_gnome_village"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {},
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Monkey_Madness_I"
+    },
+    "monkey_madness_ii": {
+      "difficulty": "GRANDMASTER",
+      "displayName": "Monkey Madness II",
+      "estimatedMinutes": 0,
+      "id": "monkey_madness_ii",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "enlightened_journey",
+        "the_eyes_of_glouphrie",
+        "troll_stronghold",
+        "watchtower"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "AGILITY": 71,
+        "CRAFTING": 70,
+        "FIREMAKING": 60,
+        "HUNTER": 60,
+        "SLAYER": 69,
+        "THIEVING": 55
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Monkey_Madness_II"
+    },
+    "monks_friend": {
+      "difficulty": "NOVICE",
+      "displayName": "Monks Friend",
+      "estimatedMinutes": 0,
+      "id": "monks_friend",
+      "members": true,
+      "prerequisiteQuestIds": [],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {},
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Monks_Friend"
+    },
+    "morytania_easy": {
+      "difficulty": "ACHIEVEMENT_DIARY",
+      "displayName": "Morytania Easy",
+      "estimatedMinutes": 0,
+      "id": "morytania_easy",
+      "members": false,
+      "prerequisiteQuestIds": [
+        "nature_spirit"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "ACHIEVEMENT_DIARY",
+      "skillRequirements": {
+        "COOKING": 12,
+        "CRAFTING": 15,
+        "FARMING": 47,
+        "SLAYER": 15
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Morytania_Easy"
+    },
+    "morytania_elite": {
+      "difficulty": "ACHIEVEMENT_DIARY",
+      "displayName": "Morytania Elite",
+      "estimatedMinutes": 0,
+      "id": "morytania_elite",
+      "members": false,
+      "prerequisiteQuestIds": [
+        "in_aid_of_the_myreque",
+        "shades_of_mortton",
+        "lunar_diplomacy"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "ACHIEVEMENT_DIARY",
+      "skillRequirements": {
+        "ATTACK": 70,
+        "CRAFTING": 84,
+        "DEFENCE": 70,
+        "FIREMAKING": 80,
+        "FISHING": 96,
+        "MAGIC": 83,
+        "RANGED": 70,
+        "SLAYER": 85,
+        "STRENGTH": 76
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Morytania_Elite"
+    },
+    "morytania_hard": {
+      "difficulty": "ACHIEVEMENT_DIARY",
+      "displayName": "Morytania Hard",
+      "estimatedMinutes": 0,
+      "id": "morytania_hard",
+      "members": false,
+      "prerequisiteQuestIds": [
+        "haunted_mine",
+        "nature_spirit",
+        "kings_ransom",
+        "cabin_fever",
+        "in_aid_of_the_myreque",
+        "the_great_brain_robbery",
+        "desert_treasure"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "ACHIEVEMENT_DIARY",
+      "skillRequirements": {
+        "AGILITY": 71,
+        "CONSTRUCTION": 50,
+        "DEFENCE": 70,
+        "FARMING": 53,
+        "FIREMAKING": 50,
+        "MAGIC": 66,
+        "MINING": 55,
+        "PRAYER": 70,
+        "SLAYER": 58,
+        "WOODCUTTING": 50
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Morytania_Hard"
+    },
+    "morytania_medium": {
+      "difficulty": "ACHIEVEMENT_DIARY",
+      "displayName": "Morytania Medium",
+      "estimatedMinutes": 0,
+      "id": "morytania_medium",
+      "members": false,
+      "prerequisiteQuestIds": [
+        "lair_of_tarn_razorlor",
+        "cabin_fever",
+        "nature_spirit",
+        "dwarf_cannon",
+        "ghosts_ahoy"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "ACHIEVEMENT_DIARY",
+      "skillRequirements": {
+        "AGILITY": 40,
+        "COOKING": 40,
+        "HERBLORE": 22,
+        "HUNTER": 29,
+        "SLAYER": 42,
+        "SMITHING": 35,
+        "WOODCUTTING": 45
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Morytania_Medium"
+    },
+    "mountain_daughter": {
+      "difficulty": "INTERMEDIATE",
+      "displayName": "Mountain Daughter",
+      "estimatedMinutes": 0,
+      "id": "mountain_daughter",
+      "members": true,
+      "prerequisiteQuestIds": [],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "AGILITY": 20
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Mountain_Daughter"
+    },
+    "mournings_end_part_i": {
+      "difficulty": "MASTER",
+      "displayName": "Mournings End Part I",
+      "estimatedMinutes": 0,
+      "id": "mournings_end_part_i",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "roving_elves",
+        "big_chompy_bird_hunting",
+        "sheep_herder"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "RANGED": 60,
+        "THIEVING": 50
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Mournings_End_Part_I"
+    },
+    "mournings_end_part_ii": {
+      "difficulty": "MASTER",
+      "displayName": "Mournings End Part II",
+      "estimatedMinutes": 0,
+      "id": "mournings_end_part_ii",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "mournings_end_part_i"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {},
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Mournings_End_Part_II"
+    },
+    "murder_mystery": {
+      "difficulty": "NOVICE",
+      "displayName": "Murder Mystery",
+      "estimatedMinutes": 0,
+      "id": "murder_mystery",
+      "members": true,
+      "prerequisiteQuestIds": [],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {},
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Murder_Mystery"
+    },
+    "my_arms_big_adventure": {
+      "difficulty": "EXPERIENCED",
+      "displayName": "My Arms Big Adventure",
+      "estimatedMinutes": 0,
+      "id": "my_arms_big_adventure",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "eadgars_ruse",
+        "the_feud",
+        "jungle_potion"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "FARMING": 29,
+        "WOODCUTTING": 10
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/My_Arms_Big_Adventure"
+    },
+    "nature_spirit": {
+      "difficulty": "INTERMEDIATE",
+      "displayName": "Nature Spirit",
+      "estimatedMinutes": 0,
+      "id": "nature_spirit",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "the_restless_ghost",
+        "priest_in_peril"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {},
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Nature_Spirit"
+    },
+    "observatory_quest": {
+      "difficulty": "INTERMEDIATE",
+      "displayName": "Observatory Quest",
+      "estimatedMinutes": 0,
+      "id": "observatory_quest",
+      "members": true,
+      "prerequisiteQuestIds": [],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {},
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Observatory_Quest"
+    },
+    "olafs_quest": {
+      "difficulty": "INTERMEDIATE",
+      "displayName": "Olafs Quest",
+      "estimatedMinutes": 0,
+      "id": "olafs_quest",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "the_fremennik_trials"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "FIREMAKING": 40,
+        "WOODCUTTING": 50
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Olafs_Quest"
+    },
+    "one_small_favour": {
+      "difficulty": "EXPERIENCED",
+      "displayName": "One Small Favour",
+      "estimatedMinutes": 0,
+      "id": "one_small_favour",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "rune_mysteries",
+        "druidic_ritual",
+        "shilo_village"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "AGILITY": 36,
+        "CRAFTING": 25,
+        "HERBLORE": 18,
+        "SMITHING": 30
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/One_Small_Favour"
+    },
+    "pandemonium": {
+      "difficulty": "NOVICE",
+      "displayName": "Pandemonium",
+      "estimatedMinutes": 0,
+      "id": "pandemonium",
+      "members": true,
+      "prerequisiteQuestIds": [],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {},
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Pandemonium"
+    },
+    "perilous_moon": {
+      "difficulty": "MASTER",
+      "displayName": "Perilous Moon",
+      "estimatedMinutes": 0,
+      "id": "perilous_moon",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "twilights_promise"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "CONSTRUCTION": 10,
+        "FISHING": 20,
+        "HUNTER": 20,
+        "RUNECRAFT": 20,
+        "SLAYER": 48
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Perilous_Moon"
+    },
+    "pirates_treasure": {
+      "difficulty": "NOVICE",
+      "displayName": "Pirates Treasure",
+      "estimatedMinutes": 0,
+      "id": "pirates_treasure",
+      "members": false,
+      "prerequisiteQuestIds": [],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "F2P",
+      "skillRequirements": {},
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Pirates_Treasure"
+    },
+    "plague_city": {
+      "difficulty": "NOVICE",
+      "displayName": "Plague City",
+      "estimatedMinutes": 0,
+      "id": "plague_city",
+      "members": true,
+      "prerequisiteQuestIds": [],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {},
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Plague_City"
+    },
+    "priest_in_peril": {
+      "difficulty": "NOVICE",
+      "displayName": "Priest In Peril",
+      "estimatedMinutes": 0,
+      "id": "priest_in_peril",
+      "members": true,
+      "prerequisiteQuestIds": [],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {},
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Priest_In_Peril"
+    },
+    "prince_ali_rescue": {
+      "difficulty": "NOVICE",
+      "displayName": "Prince Ali Rescue",
+      "estimatedMinutes": 0,
+      "id": "prince_ali_rescue",
+      "members": false,
+      "prerequisiteQuestIds": [],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "F2P",
+      "skillRequirements": {},
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Prince_Ali_Rescue"
+    },
+    "prying_times": {
+      "difficulty": "INTERMEDIATE",
+      "displayName": "Prying Times",
+      "estimatedMinutes": 0,
+      "id": "prying_times",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "pandemonium",
+        "the_knights_sword"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "SMITHING": 30
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Prying_Times"
+    },
+    "rag_and_bone_man_i": {
+      "difficulty": "NOVICE",
+      "displayName": "Rag And Bone Man I",
+      "estimatedMinutes": 0,
+      "id": "rag_and_bone_man_i",
+      "members": true,
+      "prerequisiteQuestIds": [],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {},
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Rag_And_Bone_Man_I"
+    },
+    "rag_and_bone_man_ii": {
+      "difficulty": "EXPERIENCED",
+      "displayName": "Rag And Bone Man II",
+      "estimatedMinutes": 0,
+      "id": "rag_and_bone_man_ii",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "rag_and_bone_man_i",
+        "skippy_and_the_mogres"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "AGILITY": 70,
+        "DEFENCE": 20,
+        "SLAYER": 40
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Rag_And_Bone_Man_II"
+    },
+    "ratcatchers": {
+      "difficulty": "INTERMEDIATE",
+      "displayName": "Rat Catchers",
+      "estimatedMinutes": 0,
+      "id": "ratcatchers",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "icthlarins_little_helper"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {},
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Rat_Catchers"
+    },
+    "recipe_for_disaster_dwarf": {
+      "difficulty": "NOVICE",
+      "displayName": "RFD Dwarf",
+      "estimatedMinutes": 0,
+      "id": "recipe_for_disaster_dwarf",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "fishing_contest"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {},
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/RFD_Dwarf"
+    },
+    "recipe_for_disaster_evil_dave": {
+      "difficulty": "INTERMEDIATE",
+      "displayName": "RFD Evil Dave",
+      "estimatedMinutes": 0,
+      "id": "recipe_for_disaster_evil_dave",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "gertrudes_cat",
+        "shadow_of_the_storm"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {},
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/RFD_Evil_Dave"
+    },
+    "recipe_for_disaster_finale": {
+      "difficulty": "GRANDMASTER",
+      "displayName": "RFD Final",
+      "estimatedMinutes": 0,
+      "id": "recipe_for_disaster_finale",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "desert_treasure",
+        "horror_from_the_deep"
+      ],
+      "questPointRequirement": 175,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {},
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/RFD_Final"
+    },
+    "recipe_for_disaster_lumbridge_guide": {
+      "difficulty": "INTERMEDIATE",
+      "displayName": "RFD Lumbridge Guide",
+      "estimatedMinutes": 0,
+      "id": "recipe_for_disaster_lumbridge_guide",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "big_chompy_bird_hunting",
+        "biohazard",
+        "demon_slayer",
+        "murder_mystery",
+        "nature_spirit",
+        "witchs_house"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "COOKING": 40
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/RFD_Lumbridge_Guide"
+    },
+    "recipe_for_disaster_monkey_ambassador": {
+      "difficulty": "MASTER",
+      "displayName": "RFD Awowogei",
+      "estimatedMinutes": 0,
+      "id": "recipe_for_disaster_monkey_ambassador",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "monkey_madness_i"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "AGILITY": 48,
+        "COOKING": 70
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/RFD_Awowogei"
+    },
+    "recipe_for_disaster_pirate_pete": {
+      "difficulty": "INTERMEDIATE",
+      "displayName": "RFD Pirate Pete",
+      "estimatedMinutes": 0,
+      "id": "recipe_for_disaster_pirate_pete",
+      "members": true,
+      "prerequisiteQuestIds": [],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "COOKING": 31,
+        "CRAFTING": 42
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/RFD_Pirate_Pete"
+    },
+    "recipe_for_disaster_sir_amik_varze": {
+      "difficulty": "MASTER",
+      "displayName": "RFD Sir Amik Varze",
+      "estimatedMinutes": 0,
+      "id": "recipe_for_disaster_sir_amik_varze",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "family_crest",
+        "heroes_quest",
+        "shilo_village",
+        "underground_pass",
+        "waterfall_quest"
+      ],
+      "questPointRequirement": 107,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {},
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/RFD_Sir_Amik_Varze"
+    },
+    "recipe_for_disaster_skrach_uglogwee": {
+      "difficulty": "INTERMEDIATE",
+      "displayName": "RFD Skrach Uglogwee",
+      "estimatedMinutes": 0,
+      "id": "recipe_for_disaster_skrach_uglogwee",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "big_chompy_bird_hunting"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "COOKING": 41,
+        "FIREMAKING": 20
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/RFD_Skrach_Uglogwee"
+    },
+    "recipe_for_disaster_start": {
+      "difficulty": "NOVICE",
+      "displayName": "RFD Start",
+      "estimatedMinutes": 0,
+      "id": "recipe_for_disaster_start",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "cooks_assistant"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "COOKING": 10
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/RFD_Start"
+    },
+    "recipe_for_disaster_wartface_and_bentnoze": {
+      "difficulty": "NOVICE",
+      "displayName": "RFD Goblins",
+      "estimatedMinutes": 0,
+      "id": "recipe_for_disaster_wartface_and_bentnoze",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "goblin_diplomacy"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {},
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/RFD_Goblins"
+    },
+    "recruitment_drive": {
+      "difficulty": "NOVICE",
+      "displayName": "Recruitment Drive",
+      "estimatedMinutes": 0,
+      "id": "recruitment_drive",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "black_knights_fortress",
+        "druidic_ritual"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {},
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Recruitment_Drive"
+    },
+    "regicide": {
+      "difficulty": "EXPERIENCED",
+      "displayName": "Regicide",
+      "estimatedMinutes": 0,
+      "id": "regicide",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "underground_pass"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "AGILITY": 56,
+        "CRAFTING": 10
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Regicide"
+    },
+    "romeo_juliet": {
+      "difficulty": "NOVICE",
+      "displayName": "Romeo And Juliet",
+      "estimatedMinutes": 0,
+      "id": "romeo_juliet",
+      "members": false,
+      "prerequisiteQuestIds": [],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "F2P",
+      "skillRequirements": {},
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Romeo_And_Juliet"
+    },
+    "roving_elves": {
+      "difficulty": "EXPERIENCED",
+      "displayName": "Roving Elves",
+      "estimatedMinutes": 0,
+      "id": "roving_elves",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "regicide",
+        "waterfall_quest"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "AGILITY": 56
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Roving_Elves"
+    },
+    "royal_trouble": {
+      "difficulty": "EXPERIENCED",
+      "displayName": "Royal Trouble",
+      "estimatedMinutes": 0,
+      "id": "royal_trouble",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "throne_of_miscellania"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "AGILITY": 40,
+        "SLAYER": 40
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Royal_Trouble"
+    },
+    "rum_deal": {
+      "difficulty": "EXPERIENCED",
+      "displayName": "Rum Deal",
+      "estimatedMinutes": 0,
+      "id": "rum_deal",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "zogre_flesh_eaters",
+        "priest_in_peril"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "CRAFTING": 42,
+        "FARMING": 40,
+        "FISHING": 50,
+        "PRAYER": 47,
+        "SLAYER": 42
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Rum_Deal"
+    },
+    "rune_mysteries": {
+      "difficulty": "NOVICE",
+      "displayName": "Rune Mysteries",
+      "estimatedMinutes": 0,
+      "id": "rune_mysteries",
+      "members": false,
+      "prerequisiteQuestIds": [],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "F2P",
+      "skillRequirements": {},
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Rune_Mysteries"
+    },
+    "scorpion_catcher": {
+      "difficulty": "INTERMEDIATE",
+      "displayName": "Scorpion Catcher",
+      "estimatedMinutes": 0,
+      "id": "scorpion_catcher",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "alfred_grimhands_barcrawl"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "AGILITY": 80,
+        "PRAYER": 31
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Scorpion_Catcher"
+    },
+    "scrambled": {
+      "difficulty": "INTERMEDIATE",
+      "displayName": "Scrambled",
+      "estimatedMinutes": 0,
+      "id": "scrambled",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "children_of_the_sun"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "AGILITY": 40,
+        "CONSTRUCTION": 38,
+        "COOKING": 36,
+        "SMITHING": 35
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Scrambled"
+    },
+    "sea_slug": {
+      "difficulty": "INTERMEDIATE",
+      "displayName": "Sea Slug",
+      "estimatedMinutes": 0,
+      "id": "sea_slug",
+      "members": true,
+      "prerequisiteQuestIds": [],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "FIREMAKING": 30
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Sea_Slug"
+    },
+    "secrets_of_the_north": {
+      "difficulty": "MASTER",
+      "displayName": "Secrets Of The North",
+      "estimatedMinutes": 0,
+      "id": "secrets_of_the_north",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "making_friends_with_my_arm",
+        "the_generals_shadow",
+        "devious_minds",
+        "hazeel_cult"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "AGILITY": 69,
+        "HUNTER": 56,
+        "THIEVING": 64
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Secrets_Of_The_North"
+    },
+    "shades_of_mortton": {
+      "difficulty": "INTERMEDIATE",
+      "displayName": "Shades Of Mortton",
+      "estimatedMinutes": 0,
+      "id": "shades_of_mortton",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "priest_in_peril"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "CRAFTING": 20,
+        "FIREMAKING": 5,
+        "HERBLORE": 15
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Shades_Of_Mortton"
+    },
+    "shadow_of_the_storm": {
+      "difficulty": "INTERMEDIATE",
+      "displayName": "Shadow Of The Storm",
+      "estimatedMinutes": 0,
+      "id": "shadow_of_the_storm",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "the_golem",
+        "demon_slayer"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "CRAFTING": 30
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Shadow_Of_The_Storm"
+    },
+    "shadows_of_custodia": {
+      "difficulty": "EXPERIENCED",
+      "displayName": "Shadows Of Custodia",
+      "estimatedMinutes": 0,
+      "id": "shadows_of_custodia",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "shadows_of_custodia",
+        "lumbridge_elite",
+        "children_of_the_sun"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "CONSTRUCTION": 41,
+        "FISHING": 45,
+        "HUNTER": 36,
+        "SLAYER": 54
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Shadows_Of_Custodia"
+    },
+    "sheep_herder": {
+      "difficulty": "NOVICE",
+      "displayName": "Sheep Herder",
+      "estimatedMinutes": 0,
+      "id": "sheep_herder",
+      "members": true,
+      "prerequisiteQuestIds": [],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {},
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Sheep_Herder"
+    },
+    "sheep_shearer": {
+      "difficulty": "NOVICE",
+      "displayName": "Sheep Shearer",
+      "estimatedMinutes": 0,
+      "id": "sheep_shearer",
+      "members": false,
+      "prerequisiteQuestIds": [],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "F2P",
+      "skillRequirements": {},
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Sheep_Shearer"
+    },
+    "shield_of_arrav_black_arm_gang": {
+      "difficulty": "NOVICE",
+      "displayName": "Shield Of Arrav Black Arm Gang",
+      "estimatedMinutes": 0,
+      "id": "shield_of_arrav_black_arm_gang",
+      "members": false,
+      "prerequisiteQuestIds": [],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "F2P",
+      "skillRequirements": {},
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Shield_Of_Arrav_Black_Arm_Gang"
+    },
+    "shield_of_arrav_phoenix_gang": {
+      "difficulty": "NOVICE",
+      "displayName": "Shield Of Arrav Phoenix Gang",
+      "estimatedMinutes": 0,
+      "id": "shield_of_arrav_phoenix_gang",
+      "members": false,
+      "prerequisiteQuestIds": [],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "F2P",
+      "skillRequirements": {},
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Shield_Of_Arrav_Phoenix_Gang"
+    },
+    "shilo_village": {
+      "difficulty": "INTERMEDIATE",
+      "displayName": "Shilo Village",
+      "estimatedMinutes": 0,
+      "id": "shilo_village",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "jungle_potion"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "AGILITY": 32,
+        "CRAFTING": 20
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Shilo_Village"
+    },
+    "sins_of_the_father": {
+      "difficulty": "MASTER",
+      "displayName": "Sins Of The Father",
+      "estimatedMinutes": 0,
+      "id": "sins_of_the_father",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "vampyre_slayer",
+        "a_taste_of_hope"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "AGILITY": 52,
+        "ATTACK": 50,
+        "CRAFTING": 56,
+        "FLETCHING": 60,
+        "MAGIC": 49,
+        "SLAYER": 50,
+        "WOODCUTTING": 62
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Sins_Of_The_Father"
+    },
+    "skippy_and_the_mogres": {
+      "difficulty": "MINIQUEST",
+      "displayName": "Skippy And The Mogres",
+      "estimatedMinutes": 0,
+      "id": "skippy_and_the_mogres",
+      "members": false,
+      "prerequisiteQuestIds": [],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "MINIQUEST",
+      "skillRequirements": {
+        "COOKING": 20
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Skippy_And_The_Mogres"
+    },
+    "sleeping_giants": {
+      "difficulty": "INTERMEDIATE",
+      "displayName": "Sleeping Giants",
+      "estimatedMinutes": 0,
+      "id": "sleeping_giants",
+      "members": true,
+      "prerequisiteQuestIds": [],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "SMITHING": 15
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Sleeping_Giants"
+    },
+    "song_of_the_elves": {
+      "difficulty": "GRANDMASTER",
+      "displayName": "Song Of The Elves",
+      "estimatedMinutes": 0,
+      "id": "song_of_the_elves",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "mournings_end_part_ii",
+        "making_history"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "AGILITY": 70,
+        "CONSTRUCTION": 70,
+        "FARMING": 70,
+        "HERBLORE": 70,
+        "HUNTER": 70,
+        "MINING": 70,
+        "SMITHING": 70,
+        "WOODCUTTING": 70
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Song_Of_The_Elves"
+    },
+    "spirits_of_the_elid": {
+      "difficulty": "INTERMEDIATE",
+      "displayName": "Spirits Of The Elid",
+      "estimatedMinutes": 0,
+      "id": "spirits_of_the_elid",
+      "members": true,
+      "prerequisiteQuestIds": [],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "MAGIC": 33,
+        "MINING": 37,
+        "RANGED": 37,
+        "THIEVING": 37
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Spirits_Of_The_Elid"
+    },
+    "swan_song": {
+      "difficulty": "MASTER",
+      "displayName": "Swan Song",
+      "estimatedMinutes": 0,
+      "id": "swan_song",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "one_small_favour",
+        "garden_of_tranquillity"
+      ],
+      "questPointRequirement": 100,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "COOKING": 62,
+        "CRAFTING": 40,
+        "FIREMAKING": 42,
+        "FISHING": 62,
+        "MAGIC": 66,
+        "SMITHING": 45
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Swan_Song"
+    },
+    "tai_bwo_wannai_trio": {
+      "difficulty": "INTERMEDIATE",
+      "displayName": "Tai Bwo Wannai Trio",
+      "estimatedMinutes": 0,
+      "id": "tai_bwo_wannai_trio",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "jungle_potion"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "AGILITY": 15,
+        "COOKING": 30,
+        "FIREMAKING": 30,
+        "FISHING": 5
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Tai_Bwo_Wannai_Trio"
+    },
+    "tale_of_the_righteous": {
+      "difficulty": "INTERMEDIATE",
+      "displayName": "Tale Of The Righteous",
+      "estimatedMinutes": 0,
+      "id": "tale_of_the_righteous",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "x_marks_the_spot",
+        "client_of_kourend"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "MINING": 10,
+        "STRENGTH": 16
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Tale_Of_The_Righteous"
+    },
+    "tears_of_guthix": {
+      "difficulty": "INTERMEDIATE",
+      "displayName": "Tears Of Guthix",
+      "estimatedMinutes": 0,
+      "id": "tears_of_guthix",
+      "members": true,
+      "prerequisiteQuestIds": [],
+      "questPointRequirement": 43,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "CRAFTING": 20,
+        "FIREMAKING": 49,
+        "MINING": 20
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Tears_Of_Guthix"
+    },
+    "temple_of_ikov": {
+      "difficulty": "INTERMEDIATE",
+      "displayName": "Temple Of Ikov",
+      "estimatedMinutes": 0,
+      "id": "temple_of_ikov",
+      "members": true,
+      "prerequisiteQuestIds": [],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "RANGED": 40,
+        "THIEVING": 42
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Temple_Of_Ikov"
+    },
+    "temple_of_the_eye": {
+      "difficulty": "INTERMEDIATE",
+      "displayName": "Temple Of The Eye",
+      "estimatedMinutes": 0,
+      "id": "temple_of_the_eye",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "enter_the_abyss"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "RUNECRAFT": 10
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Temple_Of_The_Eye"
+    },
+    "the_ascent_of_arceuus": {
+      "difficulty": "INTERMEDIATE",
+      "displayName": "The Ascent Of Arceuus",
+      "estimatedMinutes": 0,
+      "id": "the_ascent_of_arceuus",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "x_marks_the_spot",
+        "client_of_kourend"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "HUNTER": 12
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/The_Ascent_Of_Arceuus"
+    },
+    "the_corsair_curse": {
+      "difficulty": "INTERMEDIATE",
+      "displayName": "The Corsair Curse",
+      "estimatedMinutes": 0,
+      "id": "the_corsair_curse",
+      "members": false,
+      "prerequisiteQuestIds": [],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "F2P",
+      "skillRequirements": {},
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/The_Corsair_Curse"
+    },
+    "the_curse_of_arrav": {
+      "difficulty": "MASTER",
+      "displayName": "The Curse Of Arrav",
+      "estimatedMinutes": 0,
+      "id": "the_curse_of_arrav",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "the_curse_of_arrav",
+        "defender_of_varrock",
+        "troll_romance"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "AGILITY": 61,
+        "MINING": 64,
+        "PRAYER": 43,
+        "RANGED": 62,
+        "SLAYER": 37,
+        "STRENGTH": 58,
+        "THIEVING": 62
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/The_Curse_Of_Arrav"
+    },
+    "the_depths_of_despair": {
+      "difficulty": "INTERMEDIATE",
+      "displayName": "The Depths Of Despair",
+      "estimatedMinutes": 0,
+      "id": "the_depths_of_despair",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "client_of_kourend",
+        "x_marks_the_spot"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "AGILITY": 18
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/The_Depths_Of_Despair"
+    },
+    "the_dig_site": {
+      "difficulty": "INTERMEDIATE",
+      "displayName": "The Dig Site",
+      "estimatedMinutes": 0,
+      "id": "the_dig_site",
+      "members": true,
+      "prerequisiteQuestIds": [],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "AGILITY": 10,
+        "HERBLORE": 10,
+        "THIEVING": 25
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/The_Dig_Site"
+    },
+    "the_eyes_of_glouphrie": {
+      "difficulty": "INTERMEDIATE",
+      "displayName": "The Eyes Of Glouphrie",
+      "estimatedMinutes": 0,
+      "id": "the_eyes_of_glouphrie",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "the_grand_tree"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "CONSTRUCTION": 5,
+        "MAGIC": 46
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/The_Eyes_Of_Glouphrie"
+    },
+    "the_feud": {
+      "difficulty": "INTERMEDIATE",
+      "displayName": "The Feud",
+      "estimatedMinutes": 0,
+      "id": "the_feud",
+      "members": true,
+      "prerequisiteQuestIds": [],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "THIEVING": 30
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/The_Feud"
+    },
+    "the_final_dawn": {
+      "difficulty": "MASTER",
+      "displayName": "The Final Dawn",
+      "estimatedMinutes": 0,
+      "id": "the_final_dawn",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "the_heart_of_darkness",
+        "perilous_moon"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "AGILITY": 72,
+        "FLETCHING": 52,
+        "RUNECRAFT": 52,
+        "THIEVING": 66
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/The_Final_Dawn"
+    },
+    "the_forsaken_tower": {
+      "difficulty": "INTERMEDIATE",
+      "displayName": "The Forsaken Tower",
+      "estimatedMinutes": 0,
+      "id": "the_forsaken_tower",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "x_marks_the_spot",
+        "client_of_kourend"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {},
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/The_Forsaken_Tower"
+    },
+    "the_fremennik_exiles": {
+      "difficulty": "MASTER",
+      "displayName": "The Fremennik Exiles",
+      "estimatedMinutes": 0,
+      "id": "the_fremennik_exiles",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "the_fremennik_isles",
+        "lunar_diplomacy",
+        "mountain_daughter",
+        "heroes_quest"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "CRAFTING": 65,
+        "FISHING": 60,
+        "MINING": 60,
+        "RUNECRAFT": 55,
+        "SLAYER": 60,
+        "SMITHING": 60
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/The_Fremennik_Exiles"
+    },
+    "the_fremennik_isles": {
+      "difficulty": "EXPERIENCED",
+      "displayName": "The Fremennik Isles",
+      "estimatedMinutes": 0,
+      "id": "the_fremennik_isles",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "the_fremennik_trials"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "AGILITY": 40,
+        "CONSTRUCTION": 20,
+        "CRAFTING": 46,
+        "MINING": 55,
+        "WOODCUTTING": 56
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/The_Fremennik_Isles"
+    },
+    "the_fremennik_trials": {
+      "difficulty": "INTERMEDIATE",
+      "displayName": "The Fremennik Trials",
+      "estimatedMinutes": 0,
+      "id": "the_fremennik_trials",
+      "members": true,
+      "prerequisiteQuestIds": [],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "CRAFTING": 40,
+        "FLETCHING": 25,
+        "WOODCUTTING": 40
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/The_Fremennik_Trials"
+    },
+    "the_garden_of_death": {
+      "difficulty": "INTERMEDIATE",
+      "displayName": "The Garden Of Death",
+      "estimatedMinutes": 0,
+      "id": "the_garden_of_death",
+      "members": true,
+      "prerequisiteQuestIds": [],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "FARMING": 20
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/The_Garden_Of_Death"
+    },
+    "the_generals_shadow": {
+      "difficulty": "MINIQUEST",
+      "displayName": "The Generals Shadow",
+      "estimatedMinutes": 0,
+      "id": "the_generals_shadow",
+      "members": false,
+      "prerequisiteQuestIds": [
+        "curse_of_the_empty_lord",
+        "fight_arena"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "MINIQUEST",
+      "skillRequirements": {},
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/The_Generals_Shadow"
+    },
+    "the_giant_dwarf": {
+      "difficulty": "INTERMEDIATE",
+      "displayName": "The Giant Dwarf",
+      "estimatedMinutes": 0,
+      "id": "the_giant_dwarf",
+      "members": true,
+      "prerequisiteQuestIds": [],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "CRAFTING": 12,
+        "FIREMAKING": 16,
+        "MAGIC": 33,
+        "THIEVING": 14
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/The_Giant_Dwarf"
+    },
+    "the_golem": {
+      "difficulty": "INTERMEDIATE",
+      "displayName": "The Golem",
+      "estimatedMinutes": 0,
+      "id": "the_golem",
+      "members": true,
+      "prerequisiteQuestIds": [],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "CRAFTING": 20,
+        "THIEVING": 25
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/The_Golem"
+    },
+    "the_grand_tree": {
+      "difficulty": "INTERMEDIATE",
+      "displayName": "The Grand Tree",
+      "estimatedMinutes": 0,
+      "id": "the_grand_tree",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "tree_gnome_village"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "AGILITY": 25
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/The_Grand_Tree"
+    },
+    "the_great_brain_robbery": {
+      "difficulty": "EXPERIENCED",
+      "displayName": "The Great Brain Robbery",
+      "estimatedMinutes": 0,
+      "id": "the_great_brain_robbery",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "creature_of_fenkenstrain",
+        "rum_deal",
+        "cabin_fever"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "CONSTRUCTION": 30,
+        "CRAFTING": 16,
+        "PRAYER": 50
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/The_Great_Brain_Robbery"
+    },
+    "the_hand_in_the_sand": {
+      "difficulty": "INTERMEDIATE",
+      "displayName": "The Hand In The Sand",
+      "estimatedMinutes": 0,
+      "id": "the_hand_in_the_sand",
+      "members": true,
+      "prerequisiteQuestIds": [],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "CRAFTING": 49,
+        "THIEVING": 17
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/The_Hand_In_The_Sand"
+    },
+    "the_heart_of_darkness": {
+      "difficulty": "EXPERIENCED",
+      "displayName": "The Heart Of Darkness",
+      "estimatedMinutes": 0,
+      "id": "the_heart_of_darkness",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "twilights_promise"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "AGILITY": 46,
+        "MINING": 55,
+        "SLAYER": 48,
+        "THIEVING": 48
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/The_Heart_Of_Darkness"
+    },
+    "the_ides_of_milk": {
+      "difficulty": "NOVICE",
+      "displayName": "The Ides Of Milk",
+      "estimatedMinutes": 0,
+      "id": "the_ides_of_milk",
+      "members": false,
+      "prerequisiteQuestIds": [],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "F2P",
+      "skillRequirements": {},
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/The_Ides_Of_Milk"
+    },
+    "the_knights_sword": {
+      "difficulty": "INTERMEDIATE",
+      "displayName": "The Knights Sword",
+      "estimatedMinutes": 0,
+      "id": "the_knights_sword",
+      "members": false,
+      "prerequisiteQuestIds": [],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "F2P",
+      "skillRequirements": {
+        "MINING": 10
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/The_Knights_Sword"
+    },
+    "the_lost_tribe": {
+      "difficulty": "INTERMEDIATE",
+      "displayName": "The Lost Tribe",
+      "estimatedMinutes": 0,
+      "id": "the_lost_tribe",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "goblin_diplomacy",
+        "rune_mysteries"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "AGILITY": 13,
+        "MINING": 17,
+        "THIEVING": 13
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/The_Lost_Tribe"
+    },
+    "the_mage_arena": {
+      "difficulty": "MINIQUEST",
+      "displayName": "The Mage Arena I",
+      "estimatedMinutes": 0,
+      "id": "the_mage_arena",
+      "members": false,
+      "prerequisiteQuestIds": [],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "MINIQUEST",
+      "skillRequirements": {
+        "MAGIC": 60
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/The_Mage_Arena_I"
+    },
+    "the_mage_arena_ii": {
+      "difficulty": "MINIQUEST",
+      "displayName": "The Mage Arena II",
+      "estimatedMinutes": 0,
+      "id": "the_mage_arena_ii",
+      "members": false,
+      "prerequisiteQuestIds": [
+        "the_mage_arena"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "MINIQUEST",
+      "skillRequirements": {
+        "MAGIC": 75
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/The_Mage_Arena_II"
+    },
+    "the_path_of_glouphrie": {
+      "difficulty": "EXPERIENCED",
+      "displayName": "The Path Of Glouphrie",
+      "estimatedMinutes": 0,
+      "id": "the_path_of_glouphrie",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "lumbridge_elite",
+        "the_eyes_of_glouphrie",
+        "waterfall_quest",
+        "tree_gnome_village"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "AGILITY": 45,
+        "RANGED": 47,
+        "SLAYER": 56,
+        "STRENGTH": 60,
+        "THIEVING": 56
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/The_Path_Of_Glouphrie"
+    },
+    "the_queen_of_thieves": {
+      "difficulty": "INTERMEDIATE",
+      "displayName": "The Queen Of Thieves",
+      "estimatedMinutes": 0,
+      "id": "the_queen_of_thieves",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "client_of_kourend",
+        "x_marks_the_spot"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "THIEVING": 20
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/The_Queen_Of_Thieves"
+    },
+    "the_restless_ghost": {
+      "difficulty": "NOVICE",
+      "displayName": "The Restless Ghost",
+      "estimatedMinutes": 0,
+      "id": "the_restless_ghost",
+      "members": false,
+      "prerequisiteQuestIds": [],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "F2P",
+      "skillRequirements": {},
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/The_Restless_Ghost"
+    },
+    "the_ribbiting_tale_of_a_lily_pad_labour_dispute": {
+      "difficulty": "NOVICE",
+      "displayName": "The Ribbiting Tale Of A Lily Pad Labour Dispute",
+      "estimatedMinutes": 0,
+      "id": "the_ribbiting_tale_of_a_lily_pad_labour_dispute",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "children_of_the_sun"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "WOODCUTTING": 15
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/The_Ribbiting_Tale_Of_A_Lily_Pad_Labour_Dispute"
+    },
+    "the_slug_menace": {
+      "difficulty": "INTERMEDIATE",
+      "displayName": "The Slug Menace",
+      "estimatedMinutes": 0,
+      "id": "the_slug_menace",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "wanted",
+        "sea_slug"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "CRAFTING": 30,
+        "RUNECRAFT": 30,
+        "SLAYER": 30,
+        "THIEVING": 30
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/The_Slug_Menace"
+    },
+    "the_tourist_trap": {
+      "difficulty": "INTERMEDIATE",
+      "displayName": "The Tourist Trap",
+      "estimatedMinutes": 0,
+      "id": "the_tourist_trap",
+      "members": true,
+      "prerequisiteQuestIds": [],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "FLETCHING": 10,
+        "SMITHING": 20
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/The_Tourist_Trap"
+    },
+    "throne_of_miscellania": {
+      "difficulty": "EXPERIENCED",
+      "displayName": "Throne Of Miscellania",
+      "estimatedMinutes": 0,
+      "id": "throne_of_miscellania",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "heroes_quest",
+        "the_fremennik_trials"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "FARMING": 10,
+        "MINING": 30,
+        "SMITHING": 35,
+        "WOODCUTTING": 45
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Throne_Of_Miscellania"
+    },
+    "tower_of_life": {
+      "difficulty": "NOVICE",
+      "displayName": "Tower Of Life",
+      "estimatedMinutes": 0,
+      "id": "tower_of_life",
+      "members": true,
+      "prerequisiteQuestIds": [],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "CONSTRUCTION": 10
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Tower_Of_Life"
+    },
+    "tree_gnome_village": {
+      "difficulty": "INTERMEDIATE",
+      "displayName": "Tree Gnome Village",
+      "estimatedMinutes": 0,
+      "id": "tree_gnome_village",
+      "members": true,
+      "prerequisiteQuestIds": [],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {},
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Tree_Gnome_Village"
+    },
+    "tribal_totem": {
+      "difficulty": "INTERMEDIATE",
+      "displayName": "Tribal Totem",
+      "estimatedMinutes": 0,
+      "id": "tribal_totem",
+      "members": true,
+      "prerequisiteQuestIds": [],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "THIEVING": 21
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Tribal_Totem"
+    },
+    "troll_romance": {
+      "difficulty": "INTERMEDIATE",
+      "displayName": "Troll Romance",
+      "estimatedMinutes": 0,
+      "id": "troll_romance",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "troll_stronghold"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "AGILITY": 28
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Troll_Romance"
+    },
+    "troll_stronghold": {
+      "difficulty": "INTERMEDIATE",
+      "displayName": "Troll Stronghold",
+      "estimatedMinutes": 0,
+      "id": "troll_stronghold",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "death_plateau"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "AGILITY": 15
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Troll_Stronghold"
+    },
+    "troubled_tortugans": {
+      "difficulty": "EXPERIENCED",
+      "displayName": "Troubled Tortugans",
+      "estimatedMinutes": 0,
+      "id": "troubled_tortugans",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "pandemonium"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "CONSTRUCTION": 48,
+        "CRAFTING": 34,
+        "HUNTER": 45,
+        "SLAYER": 51,
+        "WOODCUTTING": 40
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Troubled_Tortugans"
+    },
+    "twilights_promise": {
+      "difficulty": "INTERMEDIATE",
+      "displayName": "Twilights Promise",
+      "estimatedMinutes": 0,
+      "id": "twilights_promise",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "children_of_the_sun"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {},
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Twilights_Promise"
+    },
+    "underground_pass": {
+      "difficulty": "EXPERIENCED",
+      "displayName": "Underground Pass",
+      "estimatedMinutes": 0,
+      "id": "underground_pass",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "biohazard"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "RANGED": 25
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Underground_Pass"
+    },
+    "vale_totems": {
+      "difficulty": "MINIQUEST",
+      "displayName": "Vale Totems",
+      "estimatedMinutes": 0,
+      "id": "vale_totems",
+      "members": false,
+      "prerequisiteQuestIds": [
+        "children_of_the_sun"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "MINIQUEST",
+      "skillRequirements": {
+        "FLETCHING": 20
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Vale_Totems"
+    },
+    "vampyre_slayer": {
+      "difficulty": "INTERMEDIATE",
+      "displayName": "Vampyre Slayer",
+      "estimatedMinutes": 0,
+      "id": "vampyre_slayer",
+      "members": false,
+      "prerequisiteQuestIds": [],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "F2P",
+      "skillRequirements": {},
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Vampyre_Slayer"
+    },
+    "varrock_easy": {
+      "difficulty": "ACHIEVEMENT_DIARY",
+      "displayName": "Varrock Easy",
+      "estimatedMinutes": 0,
+      "id": "varrock_easy",
+      "members": false,
+      "prerequisiteQuestIds": [
+        "rune_mysteries"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "ACHIEVEMENT_DIARY",
+      "skillRequirements": {
+        "AGILITY": 13,
+        "CRAFTING": 8,
+        "FISHING": 20,
+        "MINING": 15,
+        "RUNECRAFT": 9,
+        "THIEVING": 5
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Varrock_Easy"
+    },
+    "varrock_elite": {
+      "difficulty": "ACHIEVEMENT_DIARY",
+      "displayName": "Varrock Elite",
+      "estimatedMinutes": 0,
+      "id": "varrock_elite",
+      "members": false,
+      "prerequisiteQuestIds": [
+        "dream_mentor",
+        "rune_mysteries",
+        "the_tourist_trap"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "ACHIEVEMENT_DIARY",
+      "skillRequirements": {
+        "COOKING": 95,
+        "FLETCHING": 81,
+        "HERBLORE": 90,
+        "MAGIC": 86,
+        "RUNECRAFT": 78,
+        "SMITHING": 89
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Varrock_Elite"
+    },
+    "varrock_hard": {
+      "difficulty": "ACHIEVEMENT_DIARY",
+      "displayName": "Varrock Hard",
+      "estimatedMinutes": 0,
+      "id": "varrock_hard",
+      "members": false,
+      "prerequisiteQuestIds": [
+        "desert_treasure"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "ACHIEVEMENT_DIARY",
+      "skillRequirements": {
+        "AGILITY": 51,
+        "CONSTRUCTION": 50,
+        "FARMING": 68,
+        "FIREMAKING": 60,
+        "HUNTER": 69,
+        "MAGIC": 54,
+        "PRAYER": 52,
+        "WOODCUTTING": 60
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Varrock_Hard"
+    },
+    "varrock_medium": {
+      "difficulty": "ACHIEVEMENT_DIARY",
+      "displayName": "Varrock Medium",
+      "estimatedMinutes": 0,
+      "id": "varrock_medium",
+      "members": false,
+      "prerequisiteQuestIds": [
+        "garden_of_tranquillity",
+        "the_dig_site",
+        "gertrudes_cat",
+        "tree_gnome_village",
+        "a_souls_bane",
+        "enlightened_journey"
+      ],
+      "questPointRequirement": 32,
+      "questPointReward": 0,
+      "questType": "ACHIEVEMENT_DIARY",
+      "skillRequirements": {
+        "AGILITY": 30,
+        "FARMING": 30,
+        "FIREMAKING": 40,
+        "MAGIC": 25
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Varrock_Medium"
+    },
+    "wanted": {
+      "difficulty": "INTERMEDIATE",
+      "displayName": "Wanted",
+      "estimatedMinutes": 0,
+      "id": "wanted",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "enter_the_abyss",
+        "recruitment_drive",
+        "the_lost_tribe",
+        "priest_in_peril"
+      ],
+      "questPointRequirement": 32,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {},
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Wanted"
+    },
+    "watchtower": {
+      "difficulty": "INTERMEDIATE",
+      "displayName": "Watchtower",
+      "estimatedMinutes": 0,
+      "id": "watchtower",
+      "members": true,
+      "prerequisiteQuestIds": [],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "AGILITY": 25,
+        "HERBLORE": 14,
+        "MAGIC": 15,
+        "MINING": 40,
+        "THIEVING": 15
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Watchtower"
+    },
+    "waterfall_quest": {
+      "difficulty": "INTERMEDIATE",
+      "displayName": "Waterfall Quest",
+      "estimatedMinutes": 0,
+      "id": "waterfall_quest",
+      "members": true,
+      "prerequisiteQuestIds": [],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {},
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Waterfall_Quest"
+    },
+    "western_easy": {
+      "difficulty": "ACHIEVEMENT_DIARY",
+      "displayName": "Western Easy",
+      "estimatedMinutes": 0,
+      "id": "western_easy",
+      "members": false,
+      "prerequisiteQuestIds": [
+        "big_chompy_bird_hunting",
+        "rune_mysteries"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "ACHIEVEMENT_DIARY",
+      "skillRequirements": {
+        "FLETCHING": 20,
+        "HUNTER": 9,
+        "MINING": 15,
+        "RANGED": 30
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Western_Easy"
+    },
+    "western_elite": {
+      "difficulty": "ACHIEVEMENT_DIARY",
+      "displayName": "Western Elite",
+      "estimatedMinutes": 0,
+      "id": "western_elite",
+      "members": false,
+      "prerequisiteQuestIds": [
+        "big_chompy_bird_hunting",
+        "underground_pass"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "ACHIEVEMENT_DIARY",
+      "skillRequirements": {
+        "AGILITY": 85,
+        "ATTACK": 42,
+        "DEFENCE": 42,
+        "FARMING": 75,
+        "FLETCHING": 85,
+        "HITPOINTS": 42,
+        "MAGIC": 42,
+        "PRAYER": 22,
+        "RANGED": 42,
+        "SLAYER": 93,
+        "STRENGTH": 42,
+        "THIEVING": 85
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Western_Elite"
+    },
+    "western_hard": {
+      "difficulty": "ACHIEVEMENT_DIARY",
+      "displayName": "Western Hard",
+      "estimatedMinutes": 0,
+      "id": "western_hard",
+      "members": false,
+      "prerequisiteQuestIds": [
+        "roving_elves",
+        "swan_song",
+        "tai_bwo_wannai_trio",
+        "recipe_for_disaster_monkey_ambassador",
+        "tree_gnome_village"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "ACHIEVEMENT_DIARY",
+      "skillRequirements": {
+        "AGILITY": 48,
+        "CONSTRUCTION": 65,
+        "COOKING": 62,
+        "FARMING": 68,
+        "FIREMAKING": 50,
+        "FISHING": 62,
+        "HUNTER": 69,
+        "MAGIC": 64,
+        "MINING": 70,
+        "RANGED": 70,
+        "THIEVING": 75,
+        "WOODCUTTING": 50
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Western_Hard"
+    },
+    "western_medium": {
+      "difficulty": "ACHIEVEMENT_DIARY",
+      "displayName": "Western Medium",
+      "estimatedMinutes": 0,
+      "id": "western_medium",
+      "members": false,
+      "prerequisiteQuestIds": [
+        "the_grand_tree",
+        "the_eyes_of_glouphrie",
+        "big_chompy_bird_hunting",
+        "eagles_peak",
+        "tree_gnome_village"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "ACHIEVEMENT_DIARY",
+      "skillRequirements": {
+        "AGILITY": 37,
+        "COOKING": 42,
+        "FIREMAKING": 35,
+        "FISHING": 46,
+        "HUNTER": 31,
+        "MINING": 40,
+        "RANGED": 30,
+        "WOODCUTTING": 35
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Western_Medium"
+    },
+    "what_lies_below": {
+      "difficulty": "INTERMEDIATE",
+      "displayName": "What Lies Below",
+      "estimatedMinutes": 0,
+      "id": "what_lies_below",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "rune_mysteries"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "MINING": 42,
+        "RUNECRAFT": 35
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/What_Lies_Below"
+    },
+    "while_guthix_sleeps": {
+      "difficulty": "GRANDMASTER",
+      "displayName": "While Guthix Sleeps",
+      "estimatedMinutes": 0,
+      "id": "while_guthix_sleeps",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "defender_of_varrock",
+        "the_path_of_glouphrie",
+        "fight_arena",
+        "dream_mentor",
+        "the_hand_in_the_sand",
+        "wanted",
+        "temple_of_the_eye",
+        "a_tail_of_two_cats",
+        "tears_of_guthix",
+        "nature_spirit"
+      ],
+      "questPointRequirement": 180,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "AGILITY": 66,
+        "FARMING": 65,
+        "HERBLORE": 65,
+        "HUNTER": 62,
+        "MAGIC": 67,
+        "THIEVING": 72
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/While_Guthix_Sleeps"
+    },
+    "wilderness_easy": {
+      "difficulty": "ACHIEVEMENT_DIARY",
+      "displayName": "Wilderness Easy",
+      "estimatedMinutes": 0,
+      "id": "wilderness_easy",
+      "members": false,
+      "prerequisiteQuestIds": [
+        "enter_the_abyss"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "ACHIEVEMENT_DIARY",
+      "skillRequirements": {
+        "AGILITY": 15,
+        "MAGIC": 21,
+        "MINING": 15
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Wilderness_Easy"
+    },
+    "wilderness_elite": {
+      "difficulty": "ACHIEVEMENT_DIARY",
+      "displayName": "Wilderness Elite",
+      "estimatedMinutes": 0,
+      "id": "wilderness_elite",
+      "members": false,
+      "prerequisiteQuestIds": [
+        "desert_treasure"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "ACHIEVEMENT_DIARY",
+      "skillRequirements": {
+        "COOKING": 90,
+        "FIREMAKING": 75,
+        "FISHING": 85,
+        "MAGIC": 96,
+        "MINING": 85,
+        "SLAYER": 83,
+        "SMITHING": 90,
+        "THIEVING": 84,
+        "WOODCUTTING": 75
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Wilderness_Elite"
+    },
+    "wilderness_hard": {
+      "difficulty": "ACHIEVEMENT_DIARY",
+      "displayName": "Wilderness Hard",
+      "estimatedMinutes": 0,
+      "id": "wilderness_hard",
+      "members": false,
+      "prerequisiteQuestIds": [
+        "the_mage_arena"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "ACHIEVEMENT_DIARY",
+      "skillRequirements": {
+        "AGILITY": 64,
+        "FISHING": 53,
+        "HUNTER": 67,
+        "MAGIC": 66,
+        "SLAYER": 68,
+        "SMITHING": 75,
+        "STRENGTH": 60
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Wilderness_Hard"
+    },
+    "wilderness_medium": {
+      "difficulty": "ACHIEVEMENT_DIARY",
+      "displayName": "Wilderness Medium",
+      "estimatedMinutes": 0,
+      "id": "wilderness_medium",
+      "members": false,
+      "prerequisiteQuestIds": [],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "ACHIEVEMENT_DIARY",
+      "skillRequirements": {
+        "AGILITY": 60,
+        "MAGIC": 60,
+        "MINING": 55,
+        "SLAYER": 50,
+        "SMITHING": 50,
+        "STRENGTH": 60,
+        "WOODCUTTING": 61
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Wilderness_Medium"
+    },
+    "witchs_house": {
+      "difficulty": "INTERMEDIATE",
+      "displayName": "Witchs House",
+      "estimatedMinutes": 0,
+      "id": "witchs_house",
+      "members": true,
+      "prerequisiteQuestIds": [],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {},
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Witchs_House"
+    },
+    "witchs_potion": {
+      "difficulty": "NOVICE",
+      "displayName": "Witchs Potion",
+      "estimatedMinutes": 0,
+      "id": "witchs_potion",
+      "members": false,
+      "prerequisiteQuestIds": [],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "F2P",
+      "skillRequirements": {},
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Witchs_Potion"
+    },
+    "x_marks_the_spot": {
+      "difficulty": "NOVICE",
+      "displayName": "X Marks The Spot",
+      "estimatedMinutes": 0,
+      "id": "x_marks_the_spot",
+      "members": false,
+      "prerequisiteQuestIds": [],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "F2P",
+      "skillRequirements": {},
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/X_Marks_The_Spot"
+    },
+    "zogre_flesh_eaters": {
+      "difficulty": "INTERMEDIATE",
+      "displayName": "Zogre Flesh Eaters",
+      "estimatedMinutes": 0,
+      "id": "zogre_flesh_eaters",
+      "members": true,
+      "prerequisiteQuestIds": [
+        "big_chompy_bird_hunting",
+        "jungle_potion"
+      ],
+      "questPointRequirement": 0,
+      "questPointReward": 0,
+      "questType": "P2P",
+      "skillRequirements": {
+        "HERBLORE": 8,
+        "RANGED": 30,
+        "SMITHING": 4
+      },
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Zogre_Flesh_Eaters"
+    }
+  },
+  "trainingMethods": []
+}

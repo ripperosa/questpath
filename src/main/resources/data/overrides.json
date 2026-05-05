@@ -1,0 +1,295 @@
+{
+  "_comment": "Hand-authored quest + training method data. Best-effort accuracy — values flagged with 'verify wiki' need confirmation in Phase 6. This file wins over wiki-fetched data; missing entries fall back to wiki.",
+
+  "quests": {
+
+    "druidic_ritual": {
+      "id": "druidic_ritual",
+      "displayName": "Druidic Ritual",
+      "questPointReward": 4,
+      "prerequisiteQuestIds": [],
+      "skillRequirements": {},
+      "skillRewards": { "HERBLORE": 250 },
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Druidic_Ritual",
+      "members": true,
+      "estimatedMinutes": 10,
+      "notes": "Unlocks Herblore. F2P-startable; quest itself is members."
+    },
+
+    "jungle_potion": {
+      "id": "jungle_potion",
+      "displayName": "Jungle Potion",
+      "questPointReward": 1,
+      "prerequisiteQuestIds": ["druidic_ritual"],
+      "skillRequirements": { "HERBLORE": 3 },
+      "skillRewards": { "HERBLORE": 775 },
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Jungle_Potion",
+      "members": true,
+      "estimatedMinutes": 20,
+      "notes": "Required for Shilo Village."
+    },
+
+    "shilo_village": {
+      "id": "shilo_village",
+      "displayName": "Shilo Village",
+      "questPointReward": 2,
+      "prerequisiteQuestIds": ["jungle_potion"],
+      "skillRequirements": {
+        "AGILITY": 20,
+        "CRAFTING": 32,
+        "SMITHING": 4
+      },
+      "skillRewards": { "CRAFTING": 3875 },
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Shilo_Village",
+      "members": true,
+      "estimatedMinutes": 60,
+      "notes": "Smithing 4 is for crafting bronze wire — bring pre-made wire to skip. Verify all reqs against wiki."
+    },
+
+    "rune_mysteries": {
+      "id": "rune_mysteries",
+      "displayName": "Rune Mysteries",
+      "questPointReward": 1,
+      "prerequisiteQuestIds": [],
+      "skillRequirements": {},
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Rune_Mysteries",
+      "members": false,
+      "estimatedMinutes": 10,
+      "notes": "F2P. Unlocks Runecraft."
+    },
+
+    "lost_city": {
+      "id": "lost_city",
+      "displayName": "Lost City",
+      "questPointReward": 3,
+      "prerequisiteQuestIds": [],
+      "skillRequirements": {
+        "CRAFTING": 31,
+        "WOODCUTTING": 36
+      },
+      "skillRewards": {},
+      "recommendedCombatLevel": 30,
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Lost_City",
+      "members": true,
+      "estimatedMinutes": 30,
+      "notes": "Tree spirit fight (level 101). Verify exact skill reqs against wiki."
+    },
+
+    "the_fremennik_trials": {
+      "id": "the_fremennik_trials",
+      "displayName": "The Fremennik Trials",
+      "questPointReward": 3,
+      "prerequisiteQuestIds": [],
+      "skillRequirements": {},
+      "skillRewards": {},
+      "recommendedCombatLevel": 35,
+      "wikiUrl": "https://oldschool.runescape.wiki/w/The_Fremennik_Trials",
+      "members": true,
+      "estimatedMinutes": 90,
+      "notes": "Multi-trial quest. Some sub-trials have soft skill recs (e.g. 25 Fletching, 25 Woodcutting, 40 Crafting). Treat as recommended for now."
+    },
+
+    "lunar_diplomacy": {
+      "id": "lunar_diplomacy",
+      "displayName": "Lunar Diplomacy",
+      "questPointReward": 2,
+      "prerequisiteQuestIds": [
+        "the_fremennik_trials",
+        "lost_city",
+        "rune_mysteries",
+        "shilo_village"
+      ],
+      "skillRequirements": {
+        "CRAFTING": 61,
+        "FIREMAKING": 49,
+        "MAGIC": 65,
+        "DEFENCE": 5,
+        "HERBLORE": 5,
+        "MINING": 60,
+        "WOODCUTTING": 55
+      },
+      "skillRewards": {
+        "MAGIC": 5000,
+        "RUNECRAFT": 5000
+      },
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Lunar_Diplomacy",
+      "members": true,
+      "estimatedMinutes": 120,
+      "notes": "Unlocks Lunar spellbook + Vengeance. Skill reqs above are best-effort; verify against wiki — Mining and Woodcutting in particular."
+    },
+
+    "curse_of_the_empty_lord": {
+      "id": "curse_of_the_empty_lord",
+      "displayName": "Curse of the Empty Lord",
+      "questPointReward": 0,
+      "prerequisiteQuestIds": [
+        "the_restless_ghost",
+        "desert_treasure"
+      ],
+      "skillRequirements": {},
+      "skillRewards": {},
+      "wikiUrl": "https://oldschool.runescape.wiki/w/Curse_of_the_Empty_Lord",
+      "members": true,
+      "estimatedMinutes": 20,
+      "notes": "QH source uses IN_PROGRESS state for these prereqs — wiki says you only need them STARTED. Our planner only models DONE, so we treat them as full prereqs (over-eager but safe)."
+    }
+  },
+
+  "trainingMethods": [
+
+    {
+      "id": "willows_at_draynor",
+      "skill": "WOODCUTTING",
+      "minLevel": 30,
+      "maxEffectiveLevel": 45,
+      "xpPerHour": 30000,
+      "gpPerHour": 8000,
+      "afkRating": 7,
+      "riskLevel": 0,
+      "requirements": {},
+      "location": "Draynor Village",
+      "notes": "Trees right next to bank. Solid early Woodcutting."
+    },
+
+    {
+      "id": "teaks_tai_bwo_wannai",
+      "skill": "WOODCUTTING",
+      "minLevel": 35,
+      "maxEffectiveLevel": 90,
+      "xpPerHour": 50000,
+      "gpPerHour": 70000,
+      "afkRating": 6,
+      "riskLevel": 0,
+      "requirements": { "QUEST": "shilo_village" },
+      "location": "Tai Bwo Wannai jungle",
+      "notes": "Best mid-game Woodcutting profit. Requires Shilo Village."
+    },
+
+    {
+      "id": "yews_edgeville",
+      "skill": "WOODCUTTING",
+      "minLevel": 60,
+      "maxEffectiveLevel": 90,
+      "xpPerHour": 30000,
+      "gpPerHour": 60000,
+      "afkRating": 8,
+      "riskLevel": 1,
+      "requirements": {},
+      "location": "Edgeville bank yard",
+      "notes": "Slow XP but very AFK and decent GP."
+    },
+
+    {
+      "id": "green_dhide_chaps",
+      "skill": "CRAFTING",
+      "minLevel": 57,
+      "maxEffectiveLevel": 63,
+      "xpPerHour": 130000,
+      "gpPerHour": -150000,
+      "afkRating": 4,
+      "riskLevel": 0,
+      "requirements": { "MEMBERS": "true" },
+      "location": "Anywhere with bank",
+      "notes": "Buy dragonhide + thread + needle, 1-tick craft. Burns GP."
+    },
+
+    {
+      "id": "green_dhide_bodies",
+      "skill": "CRAFTING",
+      "minLevel": 63,
+      "maxEffectiveLevel": 99,
+      "xpPerHour": 145000,
+      "gpPerHour": -180000,
+      "afkRating": 4,
+      "riskLevel": 0,
+      "requirements": { "MEMBERS": "true" },
+      "location": "Anywhere with bank",
+      "notes": "Faster XP than chaps but more expensive."
+    },
+
+    {
+      "id": "splash_to_55",
+      "skill": "MAGIC",
+      "minLevel": 1,
+      "maxEffectiveLevel": 55,
+      "xpPerHour": 30000,
+      "gpPerHour": -40000,
+      "afkRating": 10,
+      "riskLevel": 0,
+      "requirements": {},
+      "location": "Anywhere with low-level NPC",
+      "notes": "Fully AFK. Wear -64 magic attack gear, cast lowest spell. Burns runes."
+    },
+
+    {
+      "id": "high_alch",
+      "skill": "MAGIC",
+      "minLevel": 55,
+      "maxEffectiveLevel": 99,
+      "xpPerHour": 78000,
+      "gpPerHour": 0,
+      "afkRating": 6,
+      "riskLevel": 0,
+      "requirements": {},
+      "location": "Anywhere",
+      "notes": "Click-intensive. GP/hr depends on item — break-even is realistic."
+    },
+
+    {
+      "id": "burn_oak_logs",
+      "skill": "FIREMAKING",
+      "minLevel": 15,
+      "maxEffectiveLevel": 35,
+      "xpPerHour": 75000,
+      "gpPerHour": -50000,
+      "afkRating": 3,
+      "riskLevel": 0,
+      "requirements": {},
+      "location": "Grand Exchange line",
+      "notes": "Walk-and-burn. Cheap startup."
+    },
+
+    {
+      "id": "burn_maple_logs",
+      "skill": "FIREMAKING",
+      "minLevel": 45,
+      "maxEffectiveLevel": 60,
+      "xpPerHour": 110000,
+      "gpPerHour": -80000,
+      "afkRating": 3,
+      "riskLevel": 0,
+      "requirements": {},
+      "location": "Grand Exchange line",
+      "notes": "Standard pre-Wintertodt method."
+    },
+
+    {
+      "id": "wintertodt",
+      "skill": "FIREMAKING",
+      "minLevel": 50,
+      "maxEffectiveLevel": 99,
+      "xpPerHour": 250000,
+      "gpPerHour": 50000,
+      "afkRating": 5,
+      "riskLevel": 1,
+      "requirements": { "MEMBERS": "true" },
+      "location": "Wintertodt (Great Kourend)",
+      "notes": "Best post-50 Firemaking XP/hr. Also rewards supplies + GP."
+    },
+
+    {
+      "id": "gnome_stronghold_agility",
+      "skill": "AGILITY",
+      "minLevel": 1,
+      "maxEffectiveLevel": 25,
+      "xpPerHour": 8000,
+      "gpPerHour": 0,
+      "afkRating": 4,
+      "riskLevel": 0,
+      "requirements": { "MEMBERS": "true" },
+      "location": "Tree Gnome Stronghold",
+      "notes": "Starter agility course; cap at 25 then move on."
+    }
+  ]
+}
